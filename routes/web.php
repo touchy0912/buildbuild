@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'GamesController@index');
+Route::get('grandrule','GamesController@GrandRule')->name('games.grandrule');
+
