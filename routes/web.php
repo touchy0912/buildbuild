@@ -12,5 +12,5 @@
 */
 
 Route::get('/', 'GamesController@index');
-Route::get('grandrule','GamesController@GrandRule')->name('games.grandrule');
+Route::post('grandrule','GamesController@GrandRule')->name('games.grandrule');
 
