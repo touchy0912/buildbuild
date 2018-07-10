@@ -28,8 +28,7 @@
 <?php $s++; ?>
 @endforeach
 
-<?php  $users=urlencode(serialize($users));
-       $roles=urlencode(serialize($roles)); ?>
+<?php  $users=urlencode(serialize($users)); ?>
        
        
        {!! Form::open(['route'=>'role.delete'],'method'=>'delete') !!}

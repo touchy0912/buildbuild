@@ -28,10 +28,9 @@
 <?php $s++; ?>
 @endforeach
 
-<?php  $users=urlencode(serialize($users));
-       $roles=urlencode(serialize($roles)); ?>
+<?php  $users=urlencode(serialize($users)); ?>
 
-{!! link_to_route('role.user5','次のユーザーへ',['users'=>$users,'roles'=>$roles], ["class"=>"btn btn-default"]) !!}
+{!! link_to_route('role.user5','次のユーザーへ',['users'=>$users], ["class"=>"btn btn-default"]) !!}
 
 
 @endsection
