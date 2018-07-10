@@ -16,6 +16,9 @@
             </ul>
         </div>
         <div>
-            <a href="#" class="btn btn-default">次へ</a>
+            <?php  $users=urlencode(serialize($users)); 
+            //var_dump($users);
+            ?>
+            {!! link_to_route("role.user1", "次へ", ['users'=>$users], ["class"=>"btn btn-default"]) !!}
         </div>
 @endsection
