@@ -14,6 +14,15 @@
 Route::get('/', 'GamesController@index');
 Route::post('grandrule','GamesController@GrandRule')->name('games.grandrule');
 
+Route::get('signup','Auth\RegisterController@showRegistrationForm')->name('signup.get');
+Route::post('signup','Auth\RegisterController@register')->name('signup.post');
+
+Route::get('login','Auth\LoginController@showLoginForm')->name('login');
+Route::post('login','Auth\LoginController@login')->name('login.post');
+Route::get('logout','Auth\LoginController@logout')->name('logout.get');
+
+
+
 Route::get("user1/{users}", "RolesController@user1")->name("role.user1");
 Route::post("user2/{users}", "RolesController@user2")->name("role.user2");
 Route::post("user3/{users}", "RolesController@user3")->name("role.user3");
