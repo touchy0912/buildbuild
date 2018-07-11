@@ -31,7 +31,7 @@
 <?php  $users=urlencode(serialize($users)); ?>
        
        
-{!! link_to_route('role.start','GAME ATART',null,['class'=>'btn btn-primary']) !!}
+{!! link_to_route('thema.random','GAME ATART',null,['class'=>'btn btn-primary']) !!}
        
 
 

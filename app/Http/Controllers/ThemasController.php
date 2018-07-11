@@ -14,6 +14,6 @@ class ThemasController extends Controller
         $themas=Thema::orderByRaw('RAND()')->get();
         
         
-        return view('pages.thema',['themas'=>$themas]);
+        return view('pages.start',['themas'=>$themas]);
     }
 }
