@@ -21,4 +21,5 @@ Route::post("user4/{users}", "RolesController@user4")->name("role.user4");
 Route::post("user5/{users}", "RolesController@user5")->name("role.user5");
 Route::post("user6/{users}", "RolesController@user6")->name("role.user6");
 Route::get('gamestart',"RolesController@start")->name('role.start');
+Route::get('themas',"ThemasController@random_thema")->name("thema.random");
 
