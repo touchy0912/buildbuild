@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(0,0,0,0.8);
+    font-style: inherit;
+    color: gray;
+}
+
+.title1 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    color: white;
+    font-size: 100px;
+}
+
+.title2 {
+    font-family: 'IM Fell DW Pica SC', serif;
+    color: white;
+    font-size: 30px;
+}
+
+.row {
+    background-color:rgba(72,72,72,50);
+}
+
+.form-group:hover {
+    color: #aa0000;
+}
+
+.form-control { 
+    background-color:rgba(72,72,72,50);
+}
+
+.btn {
+    background-color:rgba(72,72,72,50);
+    border: solid gray;
+    margin-top: 75px;
+}
