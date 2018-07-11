@@ -31,11 +31,8 @@
 <?php  $users=urlencode(serialize($users)); ?>
        
        
-       {!! Form::open(['route'=>'role.delete'],'method'=>'delete') !!}
+{!! link_to_route('role.start','GAME ATART',null,['class'=>'btn btn-primary']) !!}
        
-       {!! Form::submit('次へ',["class"=>"btn btn-default"])!!}
-       
-       {!!Form::close()!!}
 
 
 @endsection

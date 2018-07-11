@@ -14,77 +14,69 @@ class RolesController extends Controller
         
         $users=unserialize(urldecode($users));
         $roles=Role::orderByRaw('RAND()')->get();
-        $datasave=new Datasave();
-        foreach($roles as $role){
-            $datasave->role=$role->role;
-            $datasave->rule1=$role->rule1;
-            $datasave->rule2=$role->rule2;
-            
-            $datasave->save();
-            
-        }
         
         
         return view('pages.user1',['users'=>$users,'roles'=>$roles]);
     }
 
    
-    public function user2($users)
+    public function user2(Request $request,$users)
     {
         $users=unserialize(urldecode($users));
         
-        $roles=Datasave::all();
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
         
         return view('pages.user2',['users'=>$users,'roles'=>$roles]);
     }
 
-    public function user3($users)
+    public function user3(Request $request,$users)
     {
         $users=unserialize(urldecode($users));
         
-        $roles=Datasave::all();
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
         
         return view('pages.user3',['users'=>$users,'roles'=>$roles]);
     }
 
    
-    public function user4($users)
+    public function user4(Request $request,$users)
     {
         $users=unserialize(urldecode($users));
         
-        $roles=Datasave::all();
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
         
         return view('pages.user4',['users'=>$users,'roles'=>$roles]);
     }
 
-    public function user5($users)
+    public function user5(Request $request,$users)
     {
         $users=unserialize(urldecode($users));
         
-        $roles=Datasave::all();
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
         
         return view('pages.user5',['users'=>$users,'roles'=>$roles]);
     }
 
-    public function user6($users)
+    public function user6(Request $request,$users)
     {
         $users=unserialize(urldecode($users));
         
-        $roles=Datasave::all();
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
         
         return view('pages.user6',['users'=>$users,'roles'=>$roles]);
     }
     
     
-        public function destroy()
+        public function start()
     {
     
-        $datasaves=Datasave::all();
-        foreach($datasaves as $datasave){
-            $datasave->delete();
-        }
         
-        return view('/');
+        return view('pages.start');
     }
 }
    

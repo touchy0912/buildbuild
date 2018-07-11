@@ -28,9 +28,14 @@
 <?php $s++; ?>
 @endforeach
 
-<?php  $users=urlencode(serialize($users));?>
+<?php  $users=urlencode(serialize($users));
+       $roles=urlencode(serialize($roles)); ?>
+       
+{!! Form::open(['route'=>['role.user2',$users]]) !!}
+{!! Form::hidden('roles',$roles) !!}
+{!! Form::submit('次のユーザーへ',["class"=>"btn btn-default"]) !!}
+{!! Form::close() !!}
 
-{!! link_to_route('role.user2','次のユーザーへ',['users'=>$users], ["class"=>"btn btn-default"]) !!}
 
 
 @endsection
