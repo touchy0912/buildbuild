@@ -2,12 +2,20 @@
 
 @section('content')
 
+
+
 <?php $i=1 ?>
 @foreach($users as $user)
 
 @if($i==1)
 <h2>{{$user}} さん</h2>
+
+<div class="panel-body">
+     <img class='media-object img-rounded img-responsive' src="{{ Gravatar::src($user . '@build.com',500) }}" alt="">
+</div>
 @endif
+
+
 
 <?php $i++; ?>
 @endforeach

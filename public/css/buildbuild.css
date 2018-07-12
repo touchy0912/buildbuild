@@ -1,13 +1,15 @@
 @charset "UTF-8";
-
+/*―ここはトップページ*/
 body {
     background-color: rgba(0,0,0,0.8);
+    background-image:url('/image/as.jpg');
     font-style: inherit;
     color: gray;
 }
 
+
 .title1 {
-    font-family: 'IM Fell DW Pica SC', serif;
+    font-family: 'Permanent Marker', cursive;
     color: white;
     font-size: 100px;
 }
@@ -20,14 +22,28 @@ body {
 
 .row {
     background-color:rgba(72,72,72,50);
+    margin-top:100px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
 
-.form-group:hover {
+/*PLAYERicon画像*/
+
+.glyphicon:hover {
     color: #aa0000;
+}
+
+.gryphicon {
+    left: 5px;
+}
+
+.form-group {
+    text-align: left;
 }
 
 .form-control { 
     background-color:rgba(72,72,72,50);
+    
 }
 
 .btn {
@@ -35,3 +51,35 @@ body {
     border: solid gray;
     margin-top: 75px;
 }
+.btn:hover {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+/*grandrule*/
+
+ul{
+    list-style:none;
+}
+li .grandrule{
+    padding-top:10px;
+}
+.grandrule{
+    color:red;
+}
+
+/*user1 page*/
+
+.container{
+    text-align:center;
+}
+
+.panel-body{
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
+/**/
+
+
+
