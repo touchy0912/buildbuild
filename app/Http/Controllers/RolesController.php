@@ -72,11 +72,11 @@ class RolesController extends Controller
     }
     
     
-        public function start()
+        public function next()
     {
     
         
-        return view('pages.start');
+        return view('pages.next',['users'=>$users,'roles'=>$roles]);
     }
 }
    
