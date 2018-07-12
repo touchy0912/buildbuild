@@ -22,7 +22,7 @@ Route::post('login','Auth\LoginController@login')->name('login.post');
 Route::get('logout','Auth\LoginController@logout')->name('logout.get');
 
 
-
+Route::group(['middleware'=>['auth']],function(){
 Route::get("user1/{users}", "RolesController@user1")->name("role.user1");
 Route::post("user2/{users}", "RolesController@user2")->name("role.user2");
 Route::post("user3/{users}", "RolesController@user3")->name("role.user3");
@@ -31,4 +31,4 @@ Route::post("user5/{users}", "RolesController@user5")->name("role.user5");
 Route::post("user6/{users}", "RolesController@user6")->name("role.user6");
 Route::get('gamestart',"RolesController@start")->name('role.start');
 Route::get('themas',"ThemasController@random_thema")->name("thema.random");
-
+});
