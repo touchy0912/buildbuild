@@ -72,11 +72,62 @@ class RolesController extends Controller
     }
     
     
-        public function next()
+        public function next1(Request $request,$users)
     {
     
+                $users=unserialize(urldecode($users));
         
-        return view('pages.next',['users'=>$users,'roles'=>$roles]);
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
+        return view('pages.next1',['users'=>$users,'roles'=>$roles]);
     }
+    
+    
+        
+        public function next2(Request $request,$users)
+    {
+    
+                $users=unserialize(urldecode($users));
+        
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
+        return view('pages.next2',['users'=>$users,'roles'=>$roles]);
+    }
+    
+        
+        public function next3(Request $request,$users)
+    {
+    
+                $users=unserialize(urldecode($users));
+        
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
+        return view('pages.next3',['users'=>$users,'roles'=>$roles]);
+    }
+    
+        
+        public function next4(Request $request,$users)
+    {
+    
+                $users=unserialize(urldecode($users));
+        
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
+        return view('pages.next4',['users'=>$users,'roles'=>$roles]);
+    }
+    
+        
+        public function next5(Request $request,$users)
+    {
+    
+                $users=unserialize(urldecode($users));
+        
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
+        return view('pages.next5',['users'=>$users,'roles'=>$roles]);
+    }
+    
+        
+
 }
    
