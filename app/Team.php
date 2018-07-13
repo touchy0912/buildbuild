@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 class Team extends Authenticatable
 {
             protected $fillable = [
-        'name', 'password',
+        'team_name', 'user1','user2','user3','user4','user5','user6','password',
     ];
     
     

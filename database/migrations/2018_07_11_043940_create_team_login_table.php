@@ -15,7 +15,7 @@ class CreateTeamLoginTable extends Migration
     {
         Schema::create('teams', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
+            $table->string('team_name');
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
