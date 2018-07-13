@@ -1,10 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-        <div class="">
+    <div class="rulepage">
             <p>これからみなさんには課題に取り組んでいただきます。<br>
             その上で以下のルールを守ってください。</p>
-        </div>
         <div>
             <ul>
                 <li>ルール１<br>
@@ -21,4 +20,5 @@
             ?>
             {!! link_to_route("role.user1", "次へ", ['users'=>$users], ["class"=>"btn btn-default"]) !!}
         </div>
+    </div>
 @endsection

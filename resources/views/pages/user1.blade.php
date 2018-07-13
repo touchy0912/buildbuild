@@ -2,7 +2,7 @@
 
 @section('content')
 
-
+<div class="userpages">
 
 <?php $i=1 ?>
 @foreach($users as $user)
@@ -44,6 +44,6 @@
 {!! Form::submit('次のユーザーへ',["class"=>"btn btn-default"]) !!}
 {!! Form::close() !!}
 
-
+</div>
 
 @endsection

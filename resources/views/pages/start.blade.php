@@ -3,6 +3,8 @@
 
 @section('content')
 
+<div class="rulepage">
+
 <h1>スタート</h1>
 
 <?php $i=1 ?>
@@ -12,5 +14,7 @@
 @endif
 <?php $i++; ?>
 @endforeach
+
+</div>
 
 @endsection

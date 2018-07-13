@@ -52,8 +52,8 @@
     @else
     <div class='center jumbotron'>
         <div class='text-center'>
-            <h1>Build Build</h1>
-            <h2>-ビルビル-</h2>
+            <h2 class="title2">ビル　　　ビル</h2>
+            <h1 class="title1">Build Build</h1>
             {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
         </div>
         
