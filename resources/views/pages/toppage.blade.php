@@ -42,7 +42,7 @@
     </div>
     
     <div class='botton'>
-        {!! Form::submit("LET'S GET START!",['class'=>'btn btn-block']) !!}
+        {!! Form::submit("LET'S GET STARTED!",['class'=>'btn btn-block']) !!}
     </div>
     
     {!! Form::close() !!}

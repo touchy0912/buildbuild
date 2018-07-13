@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'GamesController@index');
+Route::get('/', 'GamesController@index')->name('games.index');
 Route::post('grandrule','GamesController@GrandRule')->name('games.grandrule');
 
 Route::get('signup','Auth\RegisterController@showRegistrationForm')->name('signup.get');
@@ -35,4 +35,5 @@ Route::post('next3/{user}',"RolesController@next3")->name('role.next3');
 Route::post('next4/{user}',"RolesController@next4")->name('role.next4');
 Route::post('next5/{user}',"RolesController@next5")->name('role.next5');
 Route::get('themas',"ThemasController@random_thema")->name("thema.random");
+Route::get('feedback',"ThemasController@feedback")->name("thema.feedback");
 });

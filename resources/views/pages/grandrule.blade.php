@@ -2,6 +2,20 @@
 
 @section('content')
         <div class="">
+            
+            
+                <?php $i=1 ?>
+                @foreach($users as $user)
+
+                @if($i==1)
+                <h2>{{$user}} さんにこのデバイスを渡してください</h2><br><br><br>
+
+                @endif
+
+                <?php $i++; ?>
+                @endforeach
+                
+                
             <p>これからみなさんには課題に取り組んでいただきます。<br>
             その上で以下のルールを守ってください。</p>
         </div>
@@ -16,9 +30,11 @@
             </ul>
         </div>
         <div>
-            <?php  $users=urlencode(serialize($users)); 
+            
+             <?php  $users=urlencode(serialize($users)); 
             //var_dump($users);
             ?>
+            
             {!! link_to_route("role.user1", "次へ", ['users'=>$users], ["class"=>"btn btn-default"]) !!}
         </div>
 @endsection
