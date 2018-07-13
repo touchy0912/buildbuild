@@ -9,6 +9,8 @@
 <div class="row">
 <div class='col-xs-6 col-xs-offset-3'>
     
+    <h3>プレイするメンバーの名前を記入してください。</h3>
+    
     {!! Form::open(['route'=>'games.grandrule']) !!}
     
     <div class='form-group'>
