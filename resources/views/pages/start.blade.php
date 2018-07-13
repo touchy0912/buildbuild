@@ -13,4 +13,6 @@
 <?php $i++; ?>
 @endforeach
 
+{!! link_to_route("thema.feedback","ゲーム終了",'',['class'=>'btn btn-default']) !!}
+
 @endsection

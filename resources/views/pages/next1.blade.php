@@ -3,6 +3,18 @@
 
 @section('content')
 
+<?php $i=1 ?>
+@foreach($users as $user)
+
+@if($i==2)
+<h2>次は{{$user}} さんです</h2>
+
+@endif
+
+<?php $i++; ?>
+@endforeach
+
+
 <?php  $users=urlencode(serialize($users));
        $roles=urlencode(serialize($roles)); ?>
        

@@ -16,4 +16,9 @@ class ThemasController extends Controller
         
         return view('pages.start',['themas'=>$themas]);
     }
+    
+    public function feedback()
+    {
+        return view('pages.feedback');
+    }
 }
