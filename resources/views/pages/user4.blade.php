@@ -2,6 +2,8 @@
 
 @section('content')
 
+<div class="rulepage">
+
 <?php $i=1 ?>
 @foreach($users as $user)
 
@@ -38,5 +40,7 @@
 {!! Form::hidden('roles',$roles) !!}
 {!! Form::submit('次のユーザーへ',["class"=>"btn btn-default"]) !!}
 {!! Form::close() !!}
+
+</div>
 
 @endsection

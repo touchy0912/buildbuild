@@ -10,6 +10,15 @@ body {
     font-style: inherit;
     color: gray;
 }
+/*ログインページのタイトル*/
+.center {
+    background-color:rgba(72,72,72,50);
+    margin-top:100px;
+    padding-top:30px;
+    padding-bottom:30px;
+    color: white;
+}
+
 
 
 .title1 {
@@ -56,10 +65,20 @@ body {
     margin-top: 75px;
 }
 .btn:hover {
-  background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 /*grandrule*/
+
+/*ルール全体*/
+
+.rulepage {
+    background-color:rgba(72,72,72,50);
+    margin-top:100px;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size: 30px;
+}
 
 ul{
     list-style:none;
@@ -83,7 +102,30 @@ li .grandrule{
 }
 
 
-/**/
+/*ユーザーページ*/
+
+.userpages {
+    background-color:rgba(72,72,72,50);
+    margin-top:100px;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+/*nextpagebtn*/
+/*.nextpage{*/
+    /*background-color:rgba(72,72,72,50);*/
+    /*margin-top:100px;*/
+    /*padding-top:30px;*/
+    /*padding-bottom:30px;*/
+    /*position:relative;*/
+/*/*/
+.nextpagebtn{
+   background-color:rgba(72,72,72,50);
+    margin-top:100px;
+    padding-top:30px;
+    padding-bottom:30px;
+    position:relative;
+}
 
 
 

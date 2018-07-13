@@ -2,6 +2,8 @@
 
 @section('content')
 
+<div class="rulepage">
+
 <?php $i=1 ?>
 @foreach($users as $user)
 
@@ -36,6 +38,6 @@
        
 {!! link_to_route('thema.random','GAME START',null,['class'=>'btn btn-primary']) !!}
        
-
+</div>
 
 @endsection
