@@ -10,8 +10,8 @@
 <div class='col-mid-6 col-mid-offset-3'>
     {!! Form::open(['route'=>'login.post']) !!}
     <div class='form-group'>
-        {!! Form::label('name','TeamID') !!}
-        {!! Form::text('name',old('name'),['class'=>'form-control'])  !!}
+        {!! Form::label('team_name','TeamID') !!}
+        {!! Form::text('team_name',old('team_name'),['class'=>'form-control'])  !!}
     </div>
         <div class='form-group'>
         {!! Form::label('password','Password') !!}
