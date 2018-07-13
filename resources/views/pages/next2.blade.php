@@ -2,7 +2,7 @@
 
 
 @section('content')
-
+<div class="nextpagebtn">
 <?php $i=1 ?>
 @foreach($users as $user)
 
@@ -18,7 +18,7 @@
        $roles=urlencode(serialize($roles)); ?>
        
        
-<div class="nextpagebtn">
+
 {!! Form::open(['route'=>['role.user3',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
 {!! Form::submit('次のユーザーへ',["class"=>"btn btn-default"]) !!}

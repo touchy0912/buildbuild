@@ -1,13 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
+
+
+<div class="rulepage">
         <div class="">
-
-            <p>今この画面を見ている人は、以下の文章を読み上げて、チームのメンバーに内容を共有してください。<br>
-
-            
-            
+                        
                 <?php $i=1 ?>
                 @foreach($users as $user)
 
@@ -20,10 +18,12 @@
                 @endforeach
                 
                 
+            <p>★今この画面を見ている人は、以下の文章を読み上げて★<br>
+            ★チームのメンバーに内容を共有してください。★<br><br><br>
+            
 
-=======
-    <div class="rulepage">
->>>>>>> designchange
+            
+
             <p>これからみなさんには課題に取り組んでいただきます。<br>
             その上で以下のルールを守ってください。</p>
         <div>
