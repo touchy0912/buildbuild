@@ -10,7 +10,7 @@
                 @foreach($users as $user)
 
                 @if($i==1)
-                <h2>{{$user}} さんにこのデバイスを渡してください</h2><br><br><br>
+                <h2>{{$user}} さんにこのデバイスを渡してください</h2><br><br>
 
                 @endif
 
@@ -18,22 +18,27 @@
                 @endforeach
                 
                 
-            <p>今この画面を見ている人は、以下の文章を読み上げて、<br>
+            <p>以下の文章を読み上げて、<br>
             チームのメンバーに内容を共有してください。<br><br><br>
             
 
             
 
-            <p>これからみなさんには課題に取り組んでいただきます。<br>
-            その上で以下のルールを守ってください。</p>
+            <p>これからみなさんにディスカッションをして頂きます。<br>
+            その上で、<span class="grandrule">以下のルールを必ず守ってください。</span></p><br><br>
         <div>
             <ul>
-                <li>ルール１<br>
-                最終的にチームで<span class="grandrule">１つの結論</span>を出してもらいます。</li>
-                <li>ルール２<br>
-                携帯、PC等はしまい、<span class="grandrule">傾聴</span>の姿勢を大切にしましょう！</li>
-                <li>ルール３<br>
-                相手への<span class="grandrule">リスペクト</span>を持ち、メンバーの意見に否定的にならないように意識しましょう！</li>
+                
+                <div style="border-style: solid ; border-width: 5px; border-color: #ff0000;">
+                         <body><br>
+                        <div align="center">①最終的にチームで<span class="grandrule">１つの結論</span>を出してください。</div>
+                        <div align="center">②携帯・PC等はしまい、<span class="grandrule">聞く姿勢</span>を大切にしましょう！</div>
+                        <div align="center">③相手への<span class="grandrule">リスペクト</span>を持ち、否定的な意見は避けましょう！</div><br>
+                        </body>
+                        </div>
+                        <br>
+                    <li>全員がルールを理解したら、<br>みんなで「ビルビル！」と言って士気を高めましょう。</li>
+                
             </ul>
         </div>
         <div>
