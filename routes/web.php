@@ -12,7 +12,7 @@
 */
 
 Route::get('/', 'GamesController@index')->name('games.index');
-Route::post('grandrule','GamesController@GrandRule')->name('games.grandrule');
+Route::get('grandrule','GamesController@GrandRule')->name('games.grandrule');
 
 Route::get('signup','Auth\RegisterController@showRegistrationForm')->name('signup.get');
 Route::post('signup','Auth\RegisterController@register')->name('signup.post');
