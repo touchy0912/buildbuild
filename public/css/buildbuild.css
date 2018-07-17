@@ -72,7 +72,7 @@ body {
 /*ルール全体*/
 
 .rulepage {
-    background-color:rgba(72,72,72,50);
+    background-color:rgba(250,250,250,0.5);
     margin-top:100px;
     padding-top:30px;
     padding-bottom:30px;
@@ -104,7 +104,7 @@ li .grandrule{
 /*ユーザーページ*/
 
 .userpages {
-    background-color:rgba(72,72,72,50);
+    background-color:rgba(250,250,250,0.5);
     margin-top:100px;
     padding-top:30px;
     padding-bottom:30px;
@@ -119,7 +119,7 @@ li .grandrule{
     /*position:relative;*/
 /*/*/
 .nextpagebtn{
-   background-color:rgba(72,72,72,50);
+   background-color:rgba(250,72,72,50);
     margin-top:100px;
     padding-top:30px;
     padding-bottom:30px;
