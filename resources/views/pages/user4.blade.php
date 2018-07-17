@@ -10,7 +10,7 @@
 @if($i==4)
 <h2>{{$user}} さん</h2>
 <div class="panel-body">
-     <img class='media-object img-rounded img-responsive' src="{{ Gravatar::src($user . '@build.com',500) }}" alt="">
+     <img class='media-object img-rounded img-responsive center-block' src="{{ Gravatar::src($user . '@build.com',300) }}" alt="">
 </div>
 @endif
 
