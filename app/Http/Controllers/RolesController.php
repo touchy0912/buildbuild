@@ -9,6 +9,15 @@ use App\Datasave;
 class RolesController extends Controller
 {
     
+    public function showroles() {
+        
+        
+        $userid=\Auth::id();
+        $roles=Role::all();
+        
+        return view("pages.roles",['roles'=>$roles]);
+    }
+    
     public function user1($users)
     {
         
