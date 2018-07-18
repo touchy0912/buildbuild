@@ -31,6 +31,7 @@
 <h2>＜ルール＞</h2>
 <h3>{{$role->rule1}}</h3>
 <h3>{{$role->rule2}} </h3>
+<h3>{{$role->rule3}}</h3>
 @endif
 
 <?php $s++; ?>

@@ -9,6 +9,15 @@ use App\Datasave;
 class RolesController extends Controller
 {
     
+    public function showroles() {
+        
+        
+        $userid=\Auth::id();
+        $roles=Role::all();
+        
+        return view("pages.roles",['roles'=>$roles]);
+    }
+    
     public function user1($users)
     {
         
@@ -72,10 +81,10 @@ class RolesController extends Controller
     }
     
     
-        public function next1(Request $request,$users)
+    public function next1(Request $request,$users)
     {
     
-                $users=unserialize(urldecode($users));
+        $users=unserialize(urldecode($users));
         
         $roles=$request->roles;
         $roles=unserialize(urldecode($roles));
@@ -87,7 +96,7 @@ class RolesController extends Controller
         public function next2(Request $request,$users)
     {
     
-                $users=unserialize(urldecode($users));
+        $users=unserialize(urldecode($users));
         
         $roles=$request->roles;
         $roles=unserialize(urldecode($roles));
@@ -98,7 +107,7 @@ class RolesController extends Controller
         public function next3(Request $request,$users)
     {
     
-                $users=unserialize(urldecode($users));
+        $users=unserialize(urldecode($users));
         
         $roles=$request->roles;
         $roles=unserialize(urldecode($roles));
@@ -109,7 +118,7 @@ class RolesController extends Controller
         public function next4(Request $request,$users)
     {
     
-                $users=unserialize(urldecode($users));
+        $users=unserialize(urldecode($users));
         
         $roles=$request->roles;
         $roles=unserialize(urldecode($roles));
@@ -120,7 +129,7 @@ class RolesController extends Controller
         public function next5(Request $request,$users)
     {
     
-                $users=unserialize(urldecode($users));
+        $users=unserialize(urldecode($users));
         
         $roles=$request->roles;
         $roles=unserialize(urldecode($roles));

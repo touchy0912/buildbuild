@@ -24,20 +24,28 @@
 
 @if($s==6)
 
-<h2>あなたの役職は{{$role->role}}です</h2>
-<h2>＜ルール＞</h2>
-<h3>{{$role->rule1}}</h3>
+<h2>あなたの役職は【{{$role->role}}】です</h2>
+
+<h3>{{$role->rule1}}</h3><br>
+<h2>【MISSION】</h2>
 <h3>{{$role->rule2}} </h3>
+<h3>{{$role->rule3}}</h3>
 @endif
 
 <?php $s++; ?>
 @endforeach
 
-<?php  $users=urlencode(serialize($users)); ?>
+
        
+
+<?php  $users=urlencode(serialize($users));
+       $roles=urlencode(serialize($roles)); ?>
        
-{!! link_to_route('thema.random','GAME START',null,['class'=>'btn btn-primary']) !!}
-       
+{!! Form::open(['route'=>['thema.random',$users]]) !!}
+{!! Form::hidden('roles',$roles) !!}
+{!! Form::submit('GAME START',["class"=>"btn btn-default"]) !!}
+{!! Form::close() !!}
+
 </div>
 
 @endsection
