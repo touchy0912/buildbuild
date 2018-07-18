@@ -45,6 +45,7 @@
             
              <?php  $users=urlencode(serialize($users)); 
             //var_dump($users);
+            exit;
             ?>
             
             {!! link_to_route("role.user1", "次へ", ['users'=>$users], ["class"=>"btn btn-default"]) !!}
