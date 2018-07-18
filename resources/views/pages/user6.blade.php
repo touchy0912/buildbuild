@@ -34,11 +34,17 @@
 <?php $s++; ?>
 @endforeach
 
-<?php  $users=urlencode(serialize($users)); ?>
+
        
+
+<?php  $users=urlencode(serialize($users));
+       $roles=urlencode(serialize($roles)); ?>
        
-{!! link_to_route('thema.random','GAME START',null,['class'=>'btn btn-primary']) !!}
-       
+{!! Form::open(['route'=>['thema.random',$users]]) !!}
+{!! Form::hidden('roles',$roles) !!}
+{!! Form::submit('GAME START',["class"=>"btn btn-default"]) !!}
+{!! Form::close() !!}
+
 </div>
 
 @endsection

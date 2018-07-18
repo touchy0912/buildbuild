@@ -20,7 +20,15 @@
 <h1>制限時間は<span class="grandrule">５分間</span>です！</h1>
 
 
-{!! link_to_route("thema.feedback","ゲーム終了",'',['class'=>'btn btn-default']) !!}
+
+<?php  $users=urlencode(serialize($users));
+       $roles=urlencode(serialize($roles)); ?>
+       
+
+{!! Form::open(['route'=>['thema.feedback',$users]]) !!}
+{!! Form::hidden('roles',$roles) !!}
+{!! Form::submit('NEXT',["class"=>"btn btn-default"]) !!}
+{!! Form::close() !!}
 
 </div>
 

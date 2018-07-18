@@ -35,8 +35,8 @@ Route::post('next2/{user}',"RolesController@next2")->name('role.next2');
 Route::post('next3/{user}',"RolesController@next3")->name('role.next3');
 Route::post('next4/{user}',"RolesController@next4")->name('role.next4');
 Route::post('next5/{user}',"RolesController@next5")->name('role.next5');
-Route::get('themas',"ThemasController@random_thema")->name("thema.random");
-Route::get('feedback',"ThemasController@feedback")->name("thema.feedback");
+Route::post('themas/{users}',"ThemasController@random_thema")->name("thema.random");
+Route::post('feedback/{users}',"ThemasController@feedback")->name("thema.feedback");
 
 Route::get("roles", "RolesController@showroles")->name("roles.list");
 
