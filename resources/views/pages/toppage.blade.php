@@ -60,13 +60,13 @@
             </p><br><br><br><br><br><br>
             
             <div class="description2">
-            <p>未登録の方はこちら</p>
+            <p>未登録のチームはこちら</p>
                  {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
             </div> <br><br><br>
             
             
             <div class="description3">
-                <p>登録済みの方はこちら</p>
+                <p>登録済みのチームはこちら</p>
                  {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
             </div>
     </div>
