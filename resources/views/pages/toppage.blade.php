@@ -16,15 +16,16 @@
     <h1 class="title1">Build-Build</h1>
 </div>
 <div class="row">
-<div class='col-xs-6 col-xs-offset-3'>
+<!--<div class='col-xs-6 col-xs-offset-3'>-->
     
     <div>
         <h1>ゲームの概要</h1>
        <ul>
-           <li>ゲームが開始されると、プレイヤー全員に役割がランダムに振り分けられます</li>
-           <li>表示されたお題をもとに、制限時間内にディスカッションをしていただきます</li>
-           <li>タイムアウト後に、チームで出した結論を担当の役割の人にシェアしていただきます</li>
-           <li>最後にフィードバックをしていただいてゲーム終了です</li>
+            <li>ゲームが開始されると、プレイヤー全員に役割がランダムに振り分けられます。</li><br>
+            <li>役割一覧は{!! link_to_route('roles.list','こちら',null) !!}</li><br>
+            <li>表示されたお題をもとに、制限時間内にディスカッションをしていただきます。</li><br>
+            <li>タイムアウト後に、チームで出した結論を担当の役割の人にシェアしていただきます。</li><br>
+            <li>最後にフィードバックをしていただいてゲーム終了です。</li><br>
        </ul>
       
        
@@ -41,8 +42,8 @@
     <div>
     <h2 class="title2">ビル　　　ビル</h2>
     <h1 class="title1">Build Build</h1>
-    </div>
-            <p>
+    </div><br><br>
+            <p class="description">
               このゲームは皆さんのチームビルディングの課題を解決するために開発されたアプリです。<br>
               このゲームを通して、メンバー全員の「言える化」の実現を目的としています。<br>
               私たちは、以下の三点が実現できれば、「言える化」、つまり意見を言いやすい環境ができるのではないかと思いました。<br>
@@ -53,18 +54,19 @@
               <br>
               アイスブレイクやチームで作業をする前に、<br>
               ゲーム感覚で楽しみながら、これら三点をクリアして、皆さんの「言える化」を目指しましょう！
-            </p>
+            </p><br><br><br><br><br><br>
             
-            <div>
-                <p>未登録の方はこちら</p>
+            <div class="description2">
+            <p>未登録の方はこちら</p>
                  {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
-            </div>
+            </div> <br><br><br>
             
-            <div>
+            
+            <div class="description3">
                 <p>登録済みの方はこちら</p>
                  {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
             </div>
-　　</div>
+    </div>
 
 @endif
 @endsection
