@@ -21,4 +21,9 @@ class ThemasController extends Controller
     {
         return view('pages.feedback');
     }
+    
+    public function gameend()
+    {
+        return view('pages.endpage');
+    }
 }

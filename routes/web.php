@@ -37,6 +37,7 @@ Route::post('next4/{user}',"RolesController@next4")->name('role.next4');
 Route::post('next5/{user}',"RolesController@next5")->name('role.next5');
 Route::get('themas',"ThemasController@random_thema")->name("thema.random");
 Route::get('feedback',"ThemasController@feedback")->name("thema.feedback");
+Route::get('gameend', "ThemasController@gameend")->name("thema.gameend");
 
 Route::get("roles", "RolesController@showroles")->name("roles.list");
 
