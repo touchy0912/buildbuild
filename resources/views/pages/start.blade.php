@@ -24,7 +24,16 @@
 <p>※<span class="grandrule">5分経過後</span>、NEXTボタンを押してください。</p>
 
 
-{!! link_to_route("thema.feedback","NEXT",'',['class'=>'btn btn-default']) !!}
+
+<?php  $users=urlencode(serialize($users));
+       $roles=urlencode(serialize($roles)); ?>
+       
+
+{!! Form::open(['route'=>['thema.feedback',$users]]) !!}
+{!! Form::hidden('roles',$roles) !!}
+{!! Form::submit('NEXT',["class"=>"btn btn-default"]) !!}
+{!! Form::close() !!}
+
 
 </div>
 
