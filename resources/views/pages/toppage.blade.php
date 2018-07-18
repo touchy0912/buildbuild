@@ -16,9 +16,8 @@
     <h1 class="title1">Build-Build</h1>
 </div>
 <div class="row">
-<div class='col-xs-6 col-xs-offset-3'>
+<div class="rulepage"> 
     
-    <div>
         <h1>ゲームの概要</h1>
        <ul>
            <li>ゲームが開始されると、プレイヤー全員に役割がランダムに振り分けられます</li>
@@ -27,13 +26,13 @@
            <li>タイムアウト後に、チームで出した結論を担当の役割の人にシェアしていただきます</li>
            <li>最後にフィードバックをしていただいてゲーム終了です</li>
        </ul>
-      
-       
-    </div>
-   
+  
+
+
     <div>
     {!! link_to_route('games.grandrule',"Let's get started",null,['class'=>'btn btn-lg btn-info']) !!}
     </div>
+</div>
    
 </div>
 </div>
