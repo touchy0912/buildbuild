@@ -35,4 +35,10 @@ class ThemasController extends Controller
         return view('pages.feedback',['users'=>$users,'roles'=>$roles]);
     }
     
+    public function gameend(){
+        
+        return view('pages.endpage');
+        
+    }
+    
 }

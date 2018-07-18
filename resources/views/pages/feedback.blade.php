@@ -37,7 +37,7 @@
 
 <h2>右隣の人へ、順番にポジティブなフィードバックを1人1分以内でしてください</h2>
 
-{!! link_to_route("games.index","トップページへ", '', ["class"=>"btn btn-default"]) !!}
+{!! link_to_route("thema.gameend","トップページへ", '', ["class"=>"btn btn-default"]) !!}
 
 
 </div>
