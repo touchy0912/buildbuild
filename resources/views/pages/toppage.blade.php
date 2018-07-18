@@ -16,9 +16,10 @@
     <h1 class="title1">Build-Build</h1>
 </div>
 <div class="row">
-<!--<div class='col-xs-6 col-xs-offset-3'>-->
+
+<div class="rulepage"> 
+
     
-    <div>
         <h1>ゲームの概要</h1>
        <ul>
 
@@ -29,13 +30,13 @@
             <li>最後にフィードバックをしていただいてゲーム終了です。</li><br>
 
        </ul>
-      
-       
-    </div>
-   
+  
+
+
     <div>
     {!! link_to_route('games.grandrule',"Let's get started",null,['class'=>'btn btn-lg btn-info']) !!}
     </div>
+</div>
    
 </div>
 </div>
