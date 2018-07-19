@@ -31,8 +31,9 @@
        $roles=urlencode(serialize($roles)); ?>
        
 
-{!! Form::open(['route'=>['thema.feedback',$users]]) !!}
+{!! Form::open(['route'=>'thema.feedback','name'=>'java']) !!}
 {!! Form::hidden('roles',$roles) !!}
+{!! Form::hidden('users',$users) !!}
 {!! Form::submit('NEXT',["class"=>"btn btn-default"]) !!}
 {!! Form::close() !!}
 
