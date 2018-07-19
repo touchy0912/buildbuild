@@ -23,7 +23,7 @@ class RolesController extends Controller
         
         $users=unserialize(urldecode($users));
         
-        $roles=Role::all(['role','rule1','rule2','rule3'])->toArray();
+        $roles=Role::all(['role','rule1','rule2','rule3','fig_name'])->toArray();
         shuffle($roles);
         
         

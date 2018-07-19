@@ -14,7 +14,7 @@ class AddColumnToRolesTable extends Migration
     public function up()
     {
         Schema::table('roles', function (Blueprint $table) {
-            $table->string('rule3');
+            $table->string('fig_name')->nullable();
         });
     }
 
@@ -26,7 +26,7 @@ class AddColumnToRolesTable extends Migration
     public function down()
     {
         Schema::table('roles', function (Blueprint $table) {
-            $table->dropColumn("rule3");
+            $table->dropColumn('fig_name');
         });
     }
 }
