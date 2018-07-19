@@ -21,6 +21,18 @@ class ThemasController extends Controller
         return view('pages.start',['themas'=>$themas,'users'=>$users,'roles'=>$roles]);
     }
     
+    public function timer (Request $request,$users)
+    {
+        $users=unserialize(urldecode($users));
+        
+        $roles=$request->roles;
+        $themas=$request->themas;
+        $roles=unserialize(urldecode($roles));
+        $themas=unserialize(urldecode($themas));
+        
+        return view('pages.timer',['themas'=>$themas,'users'=>$users,'roles'=>$roles]);
+    }
+    
     public function feedback(Request $request,$users)
     {
         $users=unserialize(urldecode($users));
