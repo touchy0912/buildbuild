@@ -26,7 +26,7 @@
                <tr>
                     <td>役職</td>
                 @foreach ($roles as $role)
-                        <td><h4>{{$role->role}}</h4></td>
+                        <td><h4>{{$role['role']}}</h4></td>
                 @endforeach
                 </tr>
                 
