@@ -11,7 +11,8 @@ class ThemasController extends Controller
     public function random_thema(Request $request,$users)
     {
         
-        $themas=Thema::orderByRaw('RAND()')->get();
+        $themas=Thema::all(["thema"])->toArray();
+        shuffle($themas);
         
         $users=unserialize(urldecode($users));
         

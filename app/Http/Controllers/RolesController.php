@@ -22,7 +22,9 @@ class RolesController extends Controller
     {
         
         $users=unserialize(urldecode($users));
-        $roles=Role::orderByRaw('random()')->get();
+        
+        $roles=Role::all(['role','rule1','rule2','rule3'])->toArray();
+        shuffle($roles);
         
         
         return view('pages.user1',['users'=>$users,'roles'=>$roles]);
