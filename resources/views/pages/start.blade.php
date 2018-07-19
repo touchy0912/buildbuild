@@ -26,11 +26,14 @@
 
 
 <?php  $users=urlencode(serialize($users));
-       $roles=urlencode(serialize($roles)); ?>
+       $roles=urlencode(serialize($roles)); 
+       $themas=urlencode(serialize($themas));
+       ?>
        
 
-{!! Form::open(['route'=>['thema.feedback',$users]]) !!}
+{!! Form::open(['route'=>['thema.timer',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
+{!! Form::hidden('themas',$themas) !!}
 {!! Form::submit('NEXT',["class"=>"btn btn-default"]) !!}
 {!! Form::close() !!}
 
