@@ -9,9 +9,13 @@
 
 @if($i==6)
 <h2>{{$user}} さん</h2>
+<<<<<<< HEAD
 <div class="panel-body">
      <img class='media-object img-rounded img-responsive center-block' src="{{ Gravatar::src($user . '@build.com',300) }}" alt="">
 </div>
+=======
+
+>>>>>>> background-color
 @endif
 
 <?php $i++; ?>
@@ -23,6 +27,9 @@
 @foreach($roles as $role)
 
 @if($s==6)
+<div class="panel-body">
+    <img class='media-object img-rounded img-responsive' src= "{{ $role["fig_name"] }}" alt="">
+</div>
 
 <h2>あなたの役職は【{{$role['role']}}】です</h2>
 
