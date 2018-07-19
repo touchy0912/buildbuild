@@ -40,7 +40,7 @@ Route::get('gameend', "ThemasController@gameend")->name("thema.gameend");
 
 Route::post('themas/{users}',"ThemasController@random_thema")->name("thema.random");
 Route::post('timers/{users}', "ThemasController@timer")->name("thema.timer");
-Route::post('feedback/{users}',"ThemasController@feedback")->name("thema.feedback");
+Route::post('feedback',"ThemasController@feedback")->name("thema.feedback");
 
 Route::get("roles", "RolesController@showroles")->name("roles.list");
 

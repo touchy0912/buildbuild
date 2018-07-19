@@ -35,6 +35,10 @@ function getSec(next) {
         if (sec < 0) {
             sec = 299;
         }
+    }else if(sec == 0){
+        window.location="feedback";
+        document.java.submit();
+    
     } else if(sec == 300) {
         sec = 0;
     }
