@@ -21,7 +21,7 @@
 <br>
 
 <h1>制限時間は<span class="grandrule">５分間</span>です！</h1>
-<p>※<span class="grandrule">5分経過後</span>、NEXTボタンを押してください。</p>
+<p>TIMER STARTボタンを押してください！</p>
 
 
 
@@ -34,7 +34,7 @@
 {!! Form::open(['route'=>['thema.timer',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
 {!! Form::hidden('themas',$themas) !!}
-{!! Form::submit('NEXT',["class"=>"btn btn-default"]) !!}
+{!! Form::submit('TIMER START',["class"=>"btn btn-default"]) !!}
 {!! Form::close() !!}
 
 
