@@ -34,8 +34,9 @@ class ThemasController extends Controller
         return view('pages.timer',['themas'=>$themas,'users'=>$users,'roles'=>$roles]);
     }
     
-    public function feedback(Request $request,$users)
+    public function feedback(Request $request)
     {
+        $users=$request->users;
         $users=unserialize(urldecode($users));
         
         $roles=$request->roles;
