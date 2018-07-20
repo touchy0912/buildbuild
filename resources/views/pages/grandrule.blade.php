@@ -18,14 +18,10 @@
                 @endforeach
                 
                 
-            <p>以下の文章を読み上げて、<br>
-            チームのメンバーに内容を共有してください。<br><br><br>
+            <p>以下の文章を読み上げてください。<br><br><br>
+                
             
-
-            
-
-            <p>これからみなさんにディスカッションをして頂きます。<br>
-            その上で、<span class="grandrule">以下のルールを必ず守ってください。</span></p><br><br>
+                <span class="grandrule">以下のルールを必ず守ってください。</span></p><br><br>
         <div>
             <div style="width:80%;margin: 0 auto 50px auto; border-style: solid ; border-width: 5px; border-color: #ffcc33;text-align:center;">
                 <div style="padding:60px 0">
@@ -35,6 +31,7 @@
                 </div>
             </div>
                 <ul>
+                    <li><span class="grandrule">※これは役割を当てるゲームではありません※</span></li><br> <br>
                     <li>全員がルールを理解したら、<br>みんなで「ビルビル！」と言って士気を高めましょう。</li>
                 </ul>
         </div>
