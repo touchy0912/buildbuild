@@ -9,13 +9,7 @@
 
 @if($i==5)
 <h2>{{$user}} さん</h2>
-<<<<<<< HEAD
-<div class="panel-body">
-     <img class='media-object img-rounded img-responsive center-block' src="{{ Gravatar::src($user . '@build.com',300) }}" alt="">
-</div>
-=======
 
->>>>>>> background-color
 @endif
 
 <?php $i++; ?>
@@ -28,7 +22,7 @@
 
 @if($s==5)
 <div class="panel-body">
-    <img class='media-object img-rounded img-responsive' src= "{{ $role["fig_name"] }}" alt="">
+    <img class='media-object img-rounded img-responsive center-block' src= "{{ $role["fig_name"] }}" alt="">
 </div>
 
 <h2>あなたの役職は【{{$role['role']}}】です</h2>
