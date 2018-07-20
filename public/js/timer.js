@@ -26,21 +26,24 @@ var count =0;
 function getSec(next) {
     count +=1;
     var currentTime = parseInt( new Date() /1000 );
+    var min ;
+    var sec2 ;
 
  //   var d = new Date()// currrent date with secound hour day month 
  //   var sec = 300-d.getSeconds(); // extraxt second area;
  var sec = startTime+300 -currentTime;
-    if (next) {
+    if (next)
+    {
         sec--;
-        if (sec < 0) {
-            sec = 299;
-        }
-    }else if(sec == 0){
+        sec2=sec%60;
+        min=Math.floor(sec/60);
+        
+        if(sec == 0){
         window.location="feedback";
         document.java.submit();
-    
-    } else if(sec == 300) {
-        sec = 0;
+        }
+        return  (sec2 < 10 ? min+':'+'0' + sec2 : min+':'+sec2);
+    }  else {
+        return (sec2 < 10 ? min+':'+'0' + sec2 : min+':'+sec2);
     }
-    return (sec < 10 ? '0' + sec : sec);
 }
