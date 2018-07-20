@@ -35,7 +35,7 @@
 
 
 
-{!! link_to_route("thema.gameend","トップページへ", '', ["class"=>"btn btn-default"]) !!}
+{!! link_to_route("thema.gameend","NEXT", '', ["class"=>"btn btn-default btn-lg"]) !!}
 
 
 </div>
