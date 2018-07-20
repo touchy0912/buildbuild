@@ -44,6 +44,8 @@ function getSec(next) {
         }
         return  (sec2 < 10 ? min+':'+'0' + sec2 : min+':'+sec2);
     }  else {
+                sec2=sec%60;
+        min=Math.floor(sec/60);
         return (sec2 < 10 ? min+':'+'0' + sec2 : min+':'+sec2);
     }
 }

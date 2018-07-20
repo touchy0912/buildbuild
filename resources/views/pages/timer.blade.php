@@ -15,7 +15,7 @@
 <br>
 
 <h1 class="timer">
-  残り
+  残り時間は
   <div class="counter">
     <span class="decor top"></span>
     <span class="decor bottom"></span>
@@ -24,7 +24,7 @@
     <span class="to top"><span></span><span class="shadow"></span></span>
     <span class="to bottom"><span></span><span class="shadow"></span></span>
   </div>
-  　秒です。
+  　です。
 </h1>
 
 <?php  $users=urlencode(serialize($users));
