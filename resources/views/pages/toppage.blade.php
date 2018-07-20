@@ -48,26 +48,28 @@
     </div><br><br>
             <p class="description">
               このゲームは、チームビルディングの課題を解決するために開発されました。<br>
-              メンバー全員の「言える化」の実現を目的としています。<br>
-              以下の3点の実現により、「言える化」= 意見を言いやすい環境ができると考えました。<br><br>
-              <br>
+              アイスブレイクやチームでの作業前にゲーム感覚で楽しみながら、<br>
+              以下の3点をクリアし、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
+            </p><br><br>
+             <p>
               ☆傾聴力<br>
               ☆リスペクト<br>
               ☆発言機会の均等化<br>
-              <br><br>
-              アイスブレイクやチームでの作業前に、<br>
-              ゲーム感覚で楽しみながら、この3点をクリアし、「言える化」を目指しましょう！
-            </p><br><br><br><br><br><br>
+              </p><br><br>
+              
+              
             
             <div class="description2">
-            <p>未登録のチームはこちら</p>
-                 {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
-            </div> <br><br><br>
+                {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
+                <h3>未登録のチームはこちら</h3>
+
+            </div>
             
             
             <div class="description3">
-                <p>登録済みのチームはこちら</p>
-                 {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
+                {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
+                <h3>登録済みのチームはこちら</h3>
+
             </div>
     </div>
 

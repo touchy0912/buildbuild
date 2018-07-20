@@ -44,7 +44,7 @@
        
 {!! Form::open(['route'=>['thema.random',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
-{!! Form::submit('GAME START',["class"=>"btn btn-default"]) !!}
+{!! Form::submit('GAME START',["class"=>"btn btn-default btn-lg"]) !!}
 {!! Form::close() !!}
 
 </div>
