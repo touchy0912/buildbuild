@@ -40,7 +40,7 @@
              <?php  $users=urlencode(serialize($users)); 
             ?>
             
-            {!! link_to_route("role.user1", "次へ", ['users'=>$users], ["class"=>"btn btn-default"]) !!}
+            {!! link_to_route("role.user1", "次へ", ['users'=>$users], ["class"=>"btn btn-default btn-lg"]) !!}
         </div>
     </div>
 @endsection
