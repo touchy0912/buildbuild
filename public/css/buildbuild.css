@@ -1,5 +1,14 @@
 @charset "UTF-8";
 /*―ここはトップページ*/
+
+/*navbar用*/
+.navbar {
+  background:transparent;
+  margin:0;
+}
+
+
+
 body {
     background-color: rgba(0,0,0,0.8);
     background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/skateboard.JPG');
@@ -274,6 +283,16 @@ h1 .counter > span.to.top {
 } 
 
 /*ここまでタイマー*/
+
+footer {
+    text-align: center;
+}
+
+footer small {
+    display: inline-block;
+    padding: 8px 0;
+    color: #fff;
+}
 
 
 
