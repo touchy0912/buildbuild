@@ -62,14 +62,23 @@
             
     </div>
     <div class='threekeys'>
-             <p>
-              ☆傾聴力<br>
-              ☆リスペクト<br>
-              ☆発言機会の均等化<br>
-              </p><br><br>
+        <img src="/image/opportunity.jpg" width="500" height="300" alt="">
+            <div class="mask">
+		        <div class="caption">It's fresh !</div>
+    	    </div>
+	
+        <img src="/image/ears.jpg" width="500" height="300" alt="">
+            <div class="mask">
+		        <div class="caption">It's fresh !</div>
+	        </div>
+	
+        <img src="/image/respect.jpg" width="500" height="300" alt="">
+            <div class="mask">
+		        <div class="caption">It's fresh !</div>
+	        </div>
+
     </div>  
-    
-    <div class='roles-top'>
+        <div class='roles-top'>
         役職一覧
     </div>
               
