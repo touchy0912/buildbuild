@@ -1,8 +1,19 @@
 @charset "UTF-8";
-/*―ここはトップページ*/
+
+
+/*Layout.app用CSS*/
+.container{
+    text-align:center;
+    magin:0;
+    padding:0;
+    width: 100%;
+    
+}
+
+
 body {
     background-color: rgba(0,0,0,0.8);
-    background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/skateboard.JPG');
+    background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,6 +21,60 @@ body {
     font-style: inherit;
     color: grey;
 }
+
+/*―ここはトップページ*/
+.title-image{
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/skateboard.JPG');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  width:100%;
+  display: block;
+  height: 700px;
+
+  
+}
+
+.whatbb{
+  
+  display:block;
+  width:100%;
+  margin:0;
+  height:700px;
+  background-color:red;
+  
+}
+
+.threekeys{
+  
+  display:block;
+  width:100%;
+  margin:0;
+  height:700px;
+  background-color:blue;
+  
+}
+
+.roles-top{
+  
+  display:block;
+  width:100%;
+  margin:0;
+  height:700px;
+  background-color:green;
+  
+}
+
+.login-signup{
+  display:block;
+  width:100%;
+  margin:0;
+  height:700px;
+  background-color:yellow;
+  
+}
+
 /*ログインページのタイトル*/
 .center {
     background-color:rgba(72,72,72,50);
@@ -19,18 +84,25 @@ body {
     color: white;
 }
 
-
+.title{
+  
+  padding: 200;
+  
+}
 
 .title1 {
     font-family: 'Permanent Marker', cursive;
     color: white;
     font-size: 100px;
+    margin-bottom: 10px;
+
 }
 
 .title2 {
     font-family: 'IM Fell DW Pica SC', serif;
     color: white;
     font-size: 30px;
+    margin-top: 10px;
 }
 
 .row {
@@ -91,9 +163,7 @@ li .grandrule{
 
 /*user1 page*/
 
-.container{
-    text-align:center;
-}
+
 
 .panel-body{
   max-width: 50%;
@@ -190,7 +260,7 @@ h1 .counter > span.top {
 }
 h1 .counter > span.top span {
   position:relative;
-  /*ここで文字の高さカエル*/
+  /*ここで文字の高*/
   top:21px;
 }
 h1 .counter > span.bottom {
