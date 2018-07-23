@@ -1,14 +1,26 @@
 @charset "UTF-8";
 
 
+
 /*Layout.app用CSS*/
 .container{
     text-align:center;
-    magin:0;
+    margin:0;
     padding:0;
     width: 100%;
     
 }
+
+
+
+/*―ここはトップページ*/
+
+/*navbar用*/
+.navbar {
+  background:transparent;
+  margin:0;
+}
+
 
 
 body {
@@ -344,6 +356,16 @@ h1 .counter > span.to.top {
 } 
 
 /*ここまでタイマー*/
+
+footer {
+    text-align: center;
+}
+
+footer small {
+    display: inline-block;
+    padding: 8px 0;
+    color: #fff;
+}
 
 
 
