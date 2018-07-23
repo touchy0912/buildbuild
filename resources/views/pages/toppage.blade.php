@@ -41,37 +41,55 @@
 </div>
 </div>
     @else
-    <div class='center jumbotron'>
-    <div>
+    <div class='title-image'>
+    <div class='title'>
     <h2 class="title2">ビル　　　ビル</h2>
     <h1 class="title1">Build Build</h1>
-    </div><br><br>
+    </div>
+    </div>
+    
+    
+    
+    <!--ここから説明-->
+    <div class='whatbb'>
+    
             <p class="description">
               このゲームは、チームビルディングの課題を解決するために開発されました。<br>
               アイスブレイクやチームでの作業前にゲーム感覚で楽しみながら、<br>
               以下の3点をクリアし、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
             </p><br><br>
+            
+            
+    </div>
+    <div class='threekeys'>
              <p>
               ☆傾聴力<br>
               ☆リスペクト<br>
               ☆発言機会の均等化<br>
               </p><br><br>
+    </div>  
+    
+    <div class='roles-top'>
+        役職一覧
+    </div>
               
-              
-            
-            <div class="description2">
+    
+    <div class='login-signup'>
+    <div class="description2">
                 {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
                 <h3>未登録のチームはこちら</h3>
 
-            </div>
+    </div>
             
-            
-            <div class="description3">
+    <!--ログイン機能に関しては表示場所要検討        -->
+    <div class="description3">
                 {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
                 <h3>登録済みのチームはこちら</h3>
 
-            </div>
     </div>
+    
+    </div>
+    
 
 @endif
 @endsection
