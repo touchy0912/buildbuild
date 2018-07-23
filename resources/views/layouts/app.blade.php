@@ -32,4 +32,8 @@
     </div>
 
     </body>
+    
+    <footer>
+        <small>&copy; 2018 Daichi+no+Megumi. </small>
+    </footer>
 </html>
