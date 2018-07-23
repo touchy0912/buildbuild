@@ -43,7 +43,7 @@
        
 {!! Form::open(['route'=>['role.next1',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
-{!! Form::submit('次のユーザーへ',["class"=>"btn btn-default"]) !!}
+{!! Form::submit('次のユーザーへ',["class"=>"btn btn-default btn-lg"]) !!}
 {!! Form::close() !!}
 
 </div>
