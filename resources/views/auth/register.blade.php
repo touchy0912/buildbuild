@@ -6,7 +6,7 @@
 </div>
 
 <div class='row'>
-    <div class='col-mid-6 col-mid-offset-3'>
+    <div class='col-xs-6 col-xs-offset-3'>
         
         {!! Form::open(['route'=>'signup.post']) !!}
         
@@ -15,7 +15,7 @@
             {!! Form::text('team_name',old('name'),['class'=>'form-control']) !!}
         </div>
 
-        <h3>プレイするメンバーの名前を記入してください。</h3>
+        <h3 class='register'>プレイするメンバーの名前を記入してください。</h3>
 
         <div class='form-group'>
             <span class="glyphicon glyphicon-user"></span>
@@ -47,7 +47,7 @@
             {!! Form::text('user6',old('user6'),['class'=>'form-control', 'placeholder'=>'PLAYER 6']) !!}
         </div>
         
-        <h3>パスワードを設定してください。</h3>
+        <h3 class='register'>パスワードを設定してください。</h3>
 
         
         <div class='form-group'>

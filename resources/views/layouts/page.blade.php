@@ -8,10 +8,10 @@
         @include('commons.error_messages')
         @yield('content')
     </div>
-    
-    <footer>
+     <footer>
         <small>&copy; 2018 Daichi+no+Megumi. </small>
     </footer>
+
     </div>
         
 

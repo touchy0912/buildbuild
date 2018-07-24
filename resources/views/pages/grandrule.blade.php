@@ -10,7 +10,8 @@
                 @foreach($users as $user)
 
                 @if($i==1)
-                <h2>{{$user}} さんにこのデバイスを渡してください</h2><br><br>
+                <br><br>
+                <h2 class='grpg'>{{$user}} さんにこのデバイスを渡してください</h2><br><br>
 
                 @endif
 

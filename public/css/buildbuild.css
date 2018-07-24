@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+body{
+    background-color: rgba(0,0,0,0.8);
+    background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  
+}
+
+.trans{
+  background:transparent;
+  
+}
 
 
 /*Layout.app用CSS*/
@@ -50,18 +64,7 @@
 
 
 
-.wrapper2 {
-    background-color: rgba(0,0,0,0.8);
-    background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% auto;
-    font-style: inherit;
-    color: grey;
-    width: 100%;
-    
-}
+
 
 .clearfix:before{
   content:"";
@@ -71,6 +74,28 @@
 
 /*―ここはトップページ*/
 .wrapper{
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/skateboard.JPG');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  width:100%;
+  display: block;
+  height: 800px;
+
+  
+}
+
+.wrapper2 {
+
+    font-style: inherit;
+    color: grey;
+    width: 100%;
+    
+}
+
+
+.wrapper3{
   background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/skateboard.JPG');
   background-position: center center;
   background-repeat: no-repeat;
@@ -145,6 +170,12 @@
 	-webkit-transform:	rotateY(0deg);
 	transform:		rotateY(0deg);
 	opacity:		1;	/* ホバーで表示する */
+}
+
+
+.top-image{
+  width: 480px;
+  height: 350px;
 }
 
 /*ここから役割一覧*/
@@ -367,6 +398,12 @@
 }
 
 /*ログインページのタイトル*/
+
+.row{
+  display: block;
+  height: 700px;
+}
+
 .center {
     background-color:rgba(72,72,72,50);
     margin-top:100px;
@@ -397,10 +434,27 @@
     padding-top: 150px;
 }
 
+.title3{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 40px;
+
+  
+}
+
 .row {
-    margin-top:100px;
-    padding-top:30px;
+    margin-top:0;
     padding-bottom:30px;
+}
+
+.topbutton .btn{
+  margin-top: 0;
+  
+}
+
+.gaiyou{
+  font-size: 50px;
+  
 }
 
 
@@ -438,8 +492,6 @@
 
 .rulepage {
     background-color:rgba(250,250,250,0.5);
-    margin-top:100px;
-    padding-top:30px;
     padding-bottom:30px;
     font-size: 30px;
 }
@@ -472,6 +524,8 @@ li .grandrule{
     padding-top:30px;
     padding-bottom:30px;
 }
+
+
 
 /*.nextpage{*/
 /*    background-color:rgba(250,250,250,0.5);*/
