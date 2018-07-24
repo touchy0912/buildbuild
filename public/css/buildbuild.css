@@ -180,6 +180,12 @@ body{
 
 /*ここから役割一覧*/
 
+.poststitle{
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  color: black;
+}
+
 .roles-top{
   
   display:block;
@@ -194,35 +200,30 @@ body{
   width: 100%;
   column-count: 3;
   column-gap: 50;
+  
 }
+
 
 .box1 {
-  padding-bottom: 20px;
-}
-
-
-.box3 {
-  padding-bottom: 20px;
-}
-
-
-.box5 {
-  padding-bottom: 20px;
-}
-
-.box1 {
-	width:			auto;
-	height:			auto;
+	width:			320px;
+	height:			320px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
 	position:		relative;
+	padding-bottom: 20px;
+  border-radius:200px;
+}
+
+.box1 img{
+  width: 230px;
 }
 
 .box1 .caption {
-	font-size:		130%;
+	font-size:		160%;
 	color:			#fff;
 	padding-top:		80px;
 	text-align: center;
+	font-family: Meiryo;
 }
 
 .box1 .mask {
@@ -231,9 +232,7 @@ body{
 	position:		absolute;
 	top:			0;
 	left:			0;
-	background-color:	rgba(0,0,0,0.4);
-	-webkit-transition:	all 0.4s ease;
-	transition:		all 0.4s ease;
+	background-color:	rgba(0,0,0,0.6);
 	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
 	transform:		scale(0);
 }
@@ -243,16 +242,26 @@ body{
 }
 
 .box2 {
-	width:			auto;
-	height:			auto;
+	width:			320px;
+	height:			320px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
 	position:		relative;
+	border-radius:200px;
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%) ;
 }
+
+.box2 img{
+  width: 230px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
 .box2 .caption {
-	font-size:		130%;
+	font-size:		160%;
 	color:			#fff;
 	padding-top:		80px;
+	font-family: Meiryo;
 }
 .box2 .mask {
 	width:			100%;
@@ -260,9 +269,7 @@ body{
 	position:		absolute;
 	top:			0;
 	left:			0;
-	background-color:	rgba(0,0,0,0.4);
-	-webkit-transition:	all 0.4s ease;
-	transition:		all 0.4s ease;
+	background-color:	rgba(0,0,0,0.6);
 	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
 	transform:		scale(0);
 }
@@ -272,16 +279,26 @@ body{
 }
 
 .box3 {
-	width:			auto;
-	height:			auto;
+	width:			320px;
+	height:			320px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
 	position:		relative;
+	padding-bottom: 20px;
+  border-radius:200px;
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%) ;
 }
+
+.box3 img{
+  width: 230px;
+  margin-top: 30px;
+}
+
 .box3 .caption {
-	font-size:		130%;
+	font-size:		160%;
 	color:			#fff;
 	padding-top:		80px;
+	font-family: Meiryo;
 }
 .box3 .mask {
 	width:			100%;
@@ -289,9 +306,7 @@ body{
 	position:		absolute;
 	top:			0;
 	left:			0;
-	background-color:	rgba(0,0,0,0.4);
-	-webkit-transition:	all 0.4s ease;
-	transition:		all 0.4s ease;
+	background-color:	rgba(0,0,0,0.6);
 	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
 	transform:		scale(0);
 }
@@ -301,16 +316,24 @@ body{
 }
 
 .box4 {
-	width:			auto;
-	height:			auto;
+	width:			320px;
+	height:			320px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
 	position:		relative;
+	border-radius:200px;
 }
+
+.box4 img{
+  width: 230px;
+  margin-top: 30px;
+}
+
 .box4 .caption {
-	font-size:		130%;
+	font-size:		160%;
 	color:			#fff;
 	padding-top:		80px;
+	font-family: Meiryo;
 }
 .box4 .mask {
 	width:			100%;
@@ -318,9 +341,7 @@ body{
 	position:		absolute;
 	top:			0;
 	left:			0;
-	background-color:	rgba(0,0,0,0.4);
-	-webkit-transition:	all 0.4s ease;
-	transition:		all 0.4s ease;
+	background-color:	rgba(0,0,0,0.6);
 	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
 	transform:		scale(0);
 }
@@ -330,16 +351,25 @@ body{
 }
 
 .box5 {
-	width:			auto;
-	height:			auto;
+	width:			320px;
+	height:			320px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
 	position:		relative;
+	padding-bottom: 20px;
+  border-radius:200px;
 }
+
+.box5 img{
+  width: 230px;
+  margin-top: 30px;
+}
+
 .box5 .caption {
-	font-size:		130%;
+	font-size:		160%;
 	color:			#fff;
 	padding-top:		80px;
+	font-family: Meiryo;
 }
 .box5 .mask {
 	width:			100%;
@@ -347,9 +377,7 @@ body{
 	position:		absolute;
 	top:			0;
 	left:			0;
-	background-color:	rgba(0,0,0,0.4);
-	-webkit-transition:	all 0.4s ease;
-	transition:		all 0.4s ease;
+	background-color:	rgba(0,0,0,0.6);
 	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
 	transform:		scale(0);
 }
@@ -359,16 +387,25 @@ body{
 }
 
 .box6 {
-	width:			auto;
-	height:			auto;
+	width:			320px;
+	height:			320px;
 	overflow:		hidden;
 	margin:			10px 8px 10px 16px;
 	position:		relative;
+	border-radius:200px;
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%) ;
 }
+
+.box6 img{
+  width: 230px;
+  margin-top: 50px;
+}
+
 .box6 .caption {
-	font-size:		130%;
+	font-size:		160%;
 	color:			#fff;
 	padding-top:		80px;
+	font-family: Meiryo;
 }
 .box6 .mask {
 	width:			100%;
@@ -376,9 +413,7 @@ body{
 	position:		absolute;
 	top:			0;
 	left:			0;
-	background-color:	rgba(0,0,0,0.4);
-	-webkit-transition:	all 0.4s ease;
-	transition:		all 0.4s ease;
+	background-color:	rgba(0,0,0,0.6);
 	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
 	transform:		scale(0);
 }
@@ -389,12 +424,17 @@ body{
 /*ここまで役割一覧*/
 
 .login-signup{
-  display:block;
   width:100%;
   margin:0;
   height:700px;
-  background-color:yellow;
-  
+  background-color:white;
+  display: block;
+}
+
+.login-signup li{
+ 
+  display: inline-block;
+  padding: 0 80px;
 }
 
 /*ログインページのタイトル*/
@@ -447,6 +487,7 @@ body{
     padding-bottom:30px;
 }
 
+
 .topbutton .btn{
   margin-top: 0;
   
@@ -455,6 +496,13 @@ body{
 .gaiyou{
   font-size: 50px;
   
+}
+
+
+.button{
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  color: black;
 }
 
 
