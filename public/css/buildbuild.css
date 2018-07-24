@@ -9,6 +9,7 @@
     padding:0;
     width: 100%;
     
+    
 }
 
 
@@ -19,11 +20,22 @@
 .navbar {
   background:transparent;
   margin:0;
+  color:white;
+　text-decoration:underline;
+　font-family: 'Permanent Marker', cursive;
+}
+
+.navbar .container  a{
+  color:white;
+  font-family: 'Permanent Marker', cursive;
+  
+  
 }
 
 
 
-body {
+
+.wrapper2 {
     background-color: rgba(0,0,0,0.8);
     background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
     background-position: center center;
@@ -32,10 +44,18 @@ body {
     background-size: 100% auto;
     font-style: inherit;
     color: grey;
+    width: 100%;
+    
+}
+
+.clearfix:before{
+  content:"";
+  clear:both;
+  display:block;
 }
 
 /*―ここはトップページ*/
-.title-image{
+.wrapper{
   background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/skateboard.JPG');
   background-position: center center;
   background-repeat: no-repeat;
@@ -43,7 +63,7 @@ body {
   background-size: 100% auto;
   width:100%;
   display: block;
-  height: 700px;
+  height: 800px;
 
   
 }
@@ -98,7 +118,8 @@ body {
 
 .title{
   
-  padding: 200;
+  display:block;
+  height:700px;
   
 }
 
@@ -106,7 +127,7 @@ body {
     font-family: 'Permanent Marker', cursive;
     color: white;
     font-size: 100px;
-    margin-bottom: 10px;
+    padding: auto;
 
 }
 
@@ -114,7 +135,7 @@ body {
     font-family: 'IM Fell DW Pica SC', serif;
     color: white;
     font-size: 30px;
-    margin-top: 10px;
+    padding-top: 150px;
 }
 
 .row {
@@ -122,6 +143,7 @@ body {
     padding-top:30px;
     padding-bottom:30px;
 }
+
 
 /*PLAYERicon画像*/
 

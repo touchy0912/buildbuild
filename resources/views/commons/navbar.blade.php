@@ -16,7 +16,7 @@
                     <ul class='nav navbar-nav navbar-right'>
                         @if (Auth::check())
                         <li class='dropdown'>
-                            <a href='#' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>{{Auth::user()->team_name}}<span class='caret'></span></a>  
+                            <a href='#'  id='navcolor' class='dropdown-toggle' data-toggle='dropdown' role='button' aria-haspopup='true' aria-expanded='false'>{{Auth::user()->team_name}}<span class='caret'></span></a>  
                             <ul class='dropdown-menu'>
                             <li>{!! link_to_route('roles.list', '役職一覧') !!}</li>
                             <li role='separater' class='devider'></li>

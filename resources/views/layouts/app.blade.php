@@ -24,16 +24,10 @@
 
         
     </head>
-    <body>
-        @include('commons.navbar')
-    <div class='container'>
-        @include('commons.error_messages')
-        @yield('content')
-    </div>
-
-    </body>
+    <body class>
+    @yield('content2')
     
-    <footer>
-        <small>&copy; 2018 Daichi+no+Megumi. </small>
-    </footer>
+   
+    </body>
+
 </html>
