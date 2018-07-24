@@ -25,10 +25,10 @@
 
         
     </head>
-    <body class>
+    <body>
     @yield('content2')
     
-   
+
     </body>
 
 </html>

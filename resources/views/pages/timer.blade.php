@@ -8,7 +8,7 @@
 <?php $i=1 ?>
 @foreach($themas as $thema)
 @if($i==1)
-<h1>今日のテーマ：「{{$thema['thema']}}」 </h1>
+<h1>テーマ<br>「{{$thema['thema']}}」 </h1>
 @endif
 <?php $i++; ?>
 @endforeach
