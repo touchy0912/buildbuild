@@ -58,7 +58,7 @@
     <font size="50">3 KEYS</font>
 </div>
     <div class='threekeys'>
-<<<<<<< HEAD
+
         <img src="/image/kintou2.jpg" width="480" height="350" alt="">
             <div class="mask">
 		        <div class="caption">
@@ -85,16 +85,7 @@
 	            </div>
     </div>
 
-        <div class='roles-top'>
-        役職一覧
-=======
-             <p>
-              ☆傾聴力<br>
-              ☆リスペクト<br>
-              ☆発言機会の均等化<br>
-              </p><br><br>
-    </div>  
-    
+
     <div class='roles-top'>
         <font size="50">役職一覧</font>
         <div class="boxContainer">
@@ -137,7 +128,7 @@
             	</div>
             </div>
         </div>
->>>>>>> gyogyo2
+
     </div>
               
     
