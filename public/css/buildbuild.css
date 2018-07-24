@@ -70,24 +70,26 @@ body {
 /*}*/
 
 .threekeys {
-  display:block;
-  margin:0;
-  height:700px;
-  background-color:blue;
+  height:auto;
+  /*background-color:blue;*/
   display: inline-block;
-  object-fit: cover;
-	width:			300px;
-	height:			700px;
+	width:			auto;
+  /*はみ出た部分を表示しない*/
 	overflow:		hidden;
-	margin:			10px 8px 10px 16px;
+	margin:			30px 5px 50px 5px;
 	position:		relative;
-
+	border-radius:15px;
+}
+.threekeystitle {
+  padding-top: 30px;
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  color: black;
 }
 .threekeys .caption {
-	font-size:		130%;
+	font-size:		220%;
 	color:			#fff;
-	text-align: 		center;
-	/*padding-top:		80px;*/
+	text-align:center;
 }
 .threekeys .mask {
 	width:			100%;

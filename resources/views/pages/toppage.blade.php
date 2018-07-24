@@ -61,23 +61,39 @@
             
             
     </div>
+<div class="threekeystitle">
+    <font size="50">3 KEYS</font>
+</div>
     <div class='threekeys'>
-        <img src="/image/opportunity.jpg" width="500" height="300" alt="">
+        <img src="/image/opportunity.jpg" width="550" height="350" alt="">
             <div class="mask">
-		        <div class="caption">It's fresh !</div>
+		        <div class="caption">
+		            <h1 class="keys">発言機会の均等化</h1>
+		            <br><br>
+		            偏りなく、皆が発言の機会を持つ！
+	            </div>
     	    </div>
-	
-        <img src="/image/ears.jpg" width="500" height="300" alt="">
+    </div>
+	<div class='threekeys'>
+	    <img src="/image/ears.jpg" width="550" height="350" alt="">
             <div class="mask">
-		        <div class="caption">It's fresh !</div>
+		        <div class="caption">
+		            <h1>傾聴力</h1>
+		            <br><br>メンバーの話を聞く姿勢を大切に！
+                </div>
 	        </div>
-	
-        <img src="/image/respect.jpg" width="500" height="300" alt="">
-            <div class="mask">
-		        <div class="caption">It's fresh !</div>
-	        </div>
+    </div>
 
-    </div>  
+    <div class='threekeys'>
+        <img src="/image/respect.jpg" width="550" height="350" alt="">
+            <div class="mask">
+		        <div class="caption">
+		            <h1>リスペクト</h1>
+		            <br><br>
+		            互いの意見を尊重しあう！</div>
+	            </div>
+    </div>
+
         <div class='roles-top'>
         役職一覧
     </div>
