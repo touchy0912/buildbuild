@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.page')
 <div>
     <h2 class="title2">ビル　　　ビル</h2>
     <h1 class="title1">Build Build</h1>
