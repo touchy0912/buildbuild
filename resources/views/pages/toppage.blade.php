@@ -43,17 +43,19 @@
     <div class='title'>
     <h2 class="title2">ビル　　　ビル</h2>
     <h1 class="title1">Build Build</h1>
+    <h1 class="title4">～ここにキャッチフレーズ～</h1>
     </div>
     
     
     
     <!--ここから説明-->
     <div class='whatbb'>
-        <p class="description">
+        
+        <h1 class="description">WHAT BB FOR <br><br><br><br><br>
         このゲームは、チームビルディングの課題を解決するために開発されました。<br>
         アイスブレイクやチームでの作業前にゲーム感覚で楽しみながら、<br>
         以下の3点をクリアし、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
-        </p>
+        </h1>
     </div>
     
     <!--ここから3keys-->
@@ -92,9 +94,13 @@
 
 
     <div class='roles-top'>
+<<<<<<< HEAD
         <div class="poststitle">
             <font size="50">Assigned Posts</font>
         </div>
+=======
+        <font size="50">ASSIGNED 6 POSTS</font>
+>>>>>>> gakuhiroo
         <div class="boxContainer">
             
             <div class="box1"><img src="/media/tereope.png" class='role-image'>
@@ -119,8 +125,13 @@
             </div>
             <div class="box4"><img src="/media/serch.png" class='role-image'>
                 <div class="mask">
+<<<<<<< HEAD
 		            <div class="caption"><h1>副キャプテン</h1><br>
 		            意見を言えていない人に<br>話をふる</div>
+=======
+		            <div class="caption"><h3>黒ずくめ</h3><br>
+		            議論を仕切っている人を、陰で全力でサポートする</div>
+>>>>>>> gakuhiroo
             	</div>
             </div>
             <div class="box5"><img src="/media/hane.png" class='role-image'>
