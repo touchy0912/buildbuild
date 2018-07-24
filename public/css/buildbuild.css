@@ -70,24 +70,28 @@ body {
 /*}*/
 
 .threekeys {
-  display:block;
-  margin:0;
-  height:700px;
-  background-color:blue;
+  height:auto;
+  /*background-color:blue;*/
   display: inline-block;
-  object-fit: cover;
-	width:			300px;
-	height:			700px;
+	width:			auto;
+  /*はみ出た部分を表示しない*/
 	overflow:		hidden;
-	margin:			10px 8px 10px 16px;
+	margin:			30px 5px 50px 5px;
 	position:		relative;
-
+	border-radius:15px;
+}
+.threekeystitle {
+  padding-top: 30px;
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  color: black;
 }
 .threekeys .caption {
-	font-size:		130%;
-	color:			#fff;
-	text-align: 		center;
-	/*padding-top:		80px;*/
+	font-size:		280%;
+	color:			white;
+  font-family: Meiryo;
+  /*font-weight: bold;*/
+	text-align:center;
 }
 .threekeys .mask {
 	width:			100%;
@@ -96,7 +100,7 @@ body {
 	top:			0;
 	left:			0;
 	opacity:		0;	/* 表示させない */
-	background-color:	rgba(0,0,0,0.4);
+	background-color:	rgba(0,0,0,0.8);
 	-webkit-transform:	rotateY(-180deg);
 	transform:		rotateY(-180deg);
 	-webkit-transition:	all 0.6s ease;
