@@ -58,6 +58,7 @@
     <font size="50">3 KEYS</font>
 </div>
     <div class='threekeys'>
+<<<<<<< HEAD
         <img src="/image/kintou2.jpg" width="480" height="350" alt="">
             <div class="mask">
 		        <div class="caption">
@@ -86,6 +87,57 @@
 
         <div class='roles-top'>
         役職一覧
+=======
+             <p>
+              ☆傾聴力<br>
+              ☆リスペクト<br>
+              ☆発言機会の均等化<br>
+              </p><br><br>
+    </div>  
+    
+    <div class='roles-top'>
+        <font size="50">役職一覧</font>
+        <div class="boxContainer">
+            
+            <div class="box1"><img src="/media/tereope.png">
+                <div class="mask">
+		            <div class="caption"><h3>ナビゲーター</h3><br>
+		            議長として議論を前に進める
+		            </div>
+            	</div>
+            </div>
+            <div class="box2"><img src="/media/pomeranianicon.png">
+                <div class="mask">
+		            <div class="caption"><h3>ポメラニアン</h3><br>
+		            他者の意見に賛同し、積極的に褒める</div>
+            	</div>
+            </div>
+            <div class="box3"><img src="/media/dig.png">
+                <div class="mask">
+		            <div class="caption"><h3>フカホリさん</h3><br>
+		            クリティカルな質問をして、論理的な議論に導く</div>
+            	</div>
+            </div>
+            <div class="box4"><img src="/media/serch.png">
+                <div class="mask">
+		            <div class="caption"><h3>副キャプテン</h3><br>
+		            議論を仕切っている人を全力でサポートする</div>
+            	</div>
+            </div>
+            <div class="box5"><img src="/media/hane.png">
+                <div class="mask">
+		            <div class="caption"><h3>リポーター</h3><br>
+		            議論の内容を整理し、適宜伝える</div>
+            	</div>
+            </div>
+            <div class="box6"><img src="/media/clock.png">
+                <div class="mask">
+		            <div class="caption"><h3>タイムキーパー</h3><br>
+		            議論の進捗を管理する</div>
+            	</div>
+            </div>
+        </div>
+>>>>>>> gyogyo2
     </div>
               
     
