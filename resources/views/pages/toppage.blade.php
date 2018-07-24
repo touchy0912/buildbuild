@@ -1,13 +1,8 @@
 
 
-
-<!--「言える化」は赤文字などで強調してほしい！-->
-<!--全体的に、見やすく大きなフォントでお願いします！-->
-<!--全体的に中央ぞろえでお願いします！！-->
-        
         
 
-@extends('layouts.app')
+@extends('layouts.top')
 
 @section('content')
     @if(Auth::check())
@@ -41,11 +36,9 @@
 </div>
 </div>
     @else
-    <div class='title-image'>
     <div class='title'>
     <h2 class="title2">ビル　　　ビル</h2>
     <h1 class="title1">Build Build</h1>
-    </div>
     </div>
     
     
