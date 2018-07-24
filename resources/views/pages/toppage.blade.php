@@ -88,64 +88,73 @@
  
     
     <div class='roles-top'>
-        <font size="50">役職一覧</font>
+        <div class="poststitle">
+            <font size="50">Assigned Posts</font>
+        </div>
         <div class="boxContainer">
             
             <div class="box1"><img src="/media/tereope.png">
                 <div class="mask">
-		            <div class="caption"><h3>ナビゲーター</h3><br>
-		            議長として議論を前に進める
+		            <div class="caption"><h1>ナビゲーター</h1><br>
+		            議長として、議論を進める
 		            </div>
             	</div>
             </div>
             <div class="box2"><img src="/media/pomeranianicon.png">
                 <div class="mask">
-		            <div class="caption"><h3>ポメラニアン</h3><br>
-		            他者の意見に賛同し、積極的に褒める</div>
+		            <div class="caption"><h1>ポメラニアン</h1><br>
+		            人の意見を積極的に褒める</div>
             	</div>
             </div>
             <div class="box3"><img src="/media/dig.png">
                 <div class="mask">
-		            <div class="caption"><h3>フカホリさん</h3><br>
-		            クリティカルな質問をして、論理的な議論に導く</div>
+		            <div class="caption"><h1>フカホリさん</h1><br>
+		            積極的に質問をし、<br>議論を深める
+		            </div>
             	</div>
             </div>
             <div class="box4"><img src="/media/serch.png">
                 <div class="mask">
-		            <div class="caption"><h3>副キャプテン</h3><br>
-		            議論を仕切っている人を全力でサポートする</div>
+		            <div class="caption"><h1>副キャプテン</h1><br>
+		            意見を言えていない人に<br>話をふる</div>
             	</div>
             </div>
             <div class="box5"><img src="/media/hane.png">
                 <div class="mask">
-		            <div class="caption"><h3>リポーター</h3><br>
-		            議論の内容を整理し、適宜伝える</div>
+		            <div class="caption"><h1>リポーター</h1><br>
+		            話の内容を整理し、<br>適宜伝える</div>
             	</div>
             </div>
             <div class="box6"><img src="/media/clock.png">
                 <div class="mask">
-		            <div class="caption"><h3>タイムキーパー</h3><br>
+		            <div class="caption"><h1>タイムキーパー</h1><br>
 		            議論の進捗を管理する</div>
             	</div>
             </div>
         </div>
+        
+        
 
     </div>
               
+    <h1 class="button">Sign up now!</h1>
     
     <div class='login-signup'>
-    <div class="description2">
-                {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
-                <h3>未登録のチームはこちら</h3>
-
-    </div>
+        <li>
+        <div class="description2">
+                    {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
+                    <h3>未登録のチーム</h3>
+    
+        </li>
             
     <!--ログイン機能に関しては表示場所要検討        -->
-    <div class="description3">
-                {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
-                <h3>登録済みのチームはこちら</h3>
-
-    </div>
+        <li class="description3">
+                    {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
+                    <h3>登録済みのチーム</h3>
+    
+        </li>
+        </ul>
+        
     
     </div>
     
