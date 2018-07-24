@@ -43,7 +43,11 @@
 }
 
 
-
+.navbar .container .navbar-header{
+  width: 100%;
+  margin-right: 0;
+    background:transparent;
+}
 
 .navbar .container .navbar-header .navbar-toggle .icon-bar{
   background-color:  white;
@@ -72,14 +76,14 @@
 
 /*―ここはトップページ*/
 .wrapper{
-  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/skateboard.JPG');
-  background-position: center center;
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/as.jpg');
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% auto;
+  background-size: 150% auto;
   width:100%;
   display: block;
-  height: 800px;
+  height: 600px;
 
   
 }
@@ -135,14 +139,14 @@
 .title{
   
   display:block;
-  height:700px;
+  height:500px;
   
 }
 
 .title1 {
     font-family: 'Permanent Marker', cursive;
     color: white;
-    font-size: 100px;
+    font-size: 50px;
     padding: auto;
 
 }

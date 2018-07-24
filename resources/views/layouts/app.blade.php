@@ -9,7 +9,8 @@
         
         <!--css-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="/css/buildbuild.css">
+        <link rel="stylesheet" type="text/css" href="/css/buildbuild.css" media='screen and (min-width:700px)'>
+        <link rel="stylesheet" type="text/css" href="/css/buildbuild1.css" media='screen and (max-width:700px)'>
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
