@@ -65,30 +65,27 @@
     <font size="50">3 KEYS</font>
 </div>
     <div class='threekeys'>
-        <img src="/image/opportunity.jpg" width="550" height="350" alt="">
+        <img src="/image/kintou2.jpg" width="480" height="350" alt="">
             <div class="mask">
 		        <div class="caption">
-		            <h1 class="keys">発言機会の均等化</h1>
 		            <br><br>
 		            偏りなく、皆が発言の機会を持つ！
 	            </div>
     	    </div>
     </div>
 	<div class='threekeys'>
-	    <img src="/image/ears.jpg" width="550" height="350" alt="">
+	    <img src="/image/keicho2.jpg" width="480" height="350" alt="">
             <div class="mask">
 		        <div class="caption">
-		            <h1>傾聴力</h1>
 		            <br><br>メンバーの話を聞く姿勢を大切に！
                 </div>
 	        </div>
     </div>
 
     <div class='threekeys'>
-        <img src="/image/respect.jpg" width="550" height="350" alt="">
+        <img src="/image/respect2.jpg" width="480" height="350" alt="">
             <div class="mask">
 		        <div class="caption">
-		            <h1>リスペクト</h1>
 		            <br><br>
 		            互いの意見を尊重しあう！</div>
 	            </div>

@@ -87,8 +87,10 @@ body {
   color: black;
 }
 .threekeys .caption {
-	font-size:		220%;
-	color:			#fff;
+	font-size:		280%;
+	color:			white;
+  font-family: Meiryo;
+  /*font-weight: bold;*/
 	text-align:center;
 }
 .threekeys .mask {
@@ -98,7 +100,7 @@ body {
 	top:			0;
 	left:			0;
 	opacity:		0;	/* 表示させない */
-	background-color:	rgba(0,0,0,0.4);
+	background-color:	rgba(0,0,0,0.8);
 	-webkit-transform:	rotateY(-180deg);
 	transform:		rotateY(-180deg);
 	-webkit-transition:	all 0.6s ease;
