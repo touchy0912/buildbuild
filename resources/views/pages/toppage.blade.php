@@ -7,7 +7,7 @@
 @section('content')
     @if(Auth::check())
 <div class='text-center'>
-    <h3 class="title2">ビル　　　　　　ビル</h3>
+    
     <h1 class="title1">Build-Build</h1>
 </div>
 <div class="row">
