@@ -94,7 +94,7 @@
 
 
     <div class='roles-top'>
-        <font size="50">ASSIGNED 6 POSTS</font>
+        <font class='post6'>ASSIGNED 6 POSTS</font>
         <div class="boxContainer">
             
             <div class="box1"><img src="/media/tereope.png" class='role-image'>
@@ -141,9 +141,11 @@
 
     </div>
               
-    <h1 class="button">Sign up now!</h1>
+    
     
     <div class='login-signup'>
+        
+        <h1 class="button">Sign up now!</h1>
         <li>
         <div class="description2">
                     {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
