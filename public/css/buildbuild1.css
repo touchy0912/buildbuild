@@ -1,6 +1,15 @@
 @charset "UTF-8";
 
 
+body{
+    background-color: rgba(0,0,0,0.8);
+    background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+  
+}
 
 /*Layout.app用CSS*/
 .container{
@@ -56,12 +65,7 @@
 
 
 .wrapper2 {
-    background-color: rgba(0,0,0,0.8);
-    background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% auto;
+
     font-style: inherit;
     color: grey;
     width: 100%;
@@ -73,6 +77,281 @@
   clear:both;
   display:block;
 }
+
+
+
+.threekeys {
+  height:180px;
+  /*background-color:blue;*/
+  display: inline-block;
+	width:			auto;
+  /*はみ出た部分を表示しない*/
+	overflow:		hidden;
+	margin:			30px 5px 50px 5px;
+	position:		relative;
+	border-radius:15px;
+}
+.threekeystitle {
+  padding-top: 30px;
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  color: black;
+}
+.threekeys .caption {
+	font-size:		100%;
+	color:			white;
+  font-family: Meiryo;
+  /*font-weight: bold;*/
+	text-align:center;
+}
+.threekeys .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	opacity:		0;	/* 表示させない */
+	background-color:	rgba(0,0,0,0.8);
+	-webkit-transform:	rotateY(-180deg);
+	transform:		rotateY(-180deg);
+	-webkit-transition:	all 0.6s ease;
+	transition:		all 0.6s ease;
+}
+.threekeys:hover .mask {
+	-webkit-transform:	rotateY(0deg);
+	transform:		rotateY(0deg);
+	opacity:		1;	/* ホバーで表示する */
+}
+
+.top-image{
+  width: 240px;
+  height: 170px;
+}
+
+
+/*ここから役割*/
+
+.roles-top{
+  
+  display:block;
+  width:100%;
+  margin:0;
+  height:350px;
+}
+
+.boxContainer {
+  margin: 0px 5px 50px 0px;   
+  padding-top: 50px;
+  width: 100%;
+  column-count: 3;
+  column-gap: 50;
+}
+
+.box1 {
+  padding-bottom: 20px;
+}
+
+
+.box3 {
+  padding-bottom: 20px;
+}
+
+
+.box5 {
+  padding-bottom: 20px;
+}
+
+.box1 {
+	width:			auto;
+	height:			auto;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+
+.box1 .caption {
+	font-size:		100%;
+	color:			#fff;
+	padding-top:	0;
+	text-align: center;
+}
+
+.box1 .mask {
+ z-index: 1;
+	width:			100%;
+	height:			25%;
+	position: fixed;
+	top:			150px;
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
+	transform:		scale(0);
+}
+.box1:hover .mask {
+	-webkit-transform:	scale(1);	/* 大きさを１にして表示する */
+	transform:		scale(1);
+}
+
+.box2 {
+	width:			auto;
+	height:			auto;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.box2 .caption {
+	font-size:		100%;
+	color:			#fff;
+	padding-top:		0px;
+}
+.box2 .mask {
+  z-index: 1;
+	width:			100%;
+	height:			25%;
+	position: fixed;
+	top:			150px;
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
+	transform:		scale(0);
+}
+.box2:hover .mask {
+	-webkit-transform:	scale(1);	/* 大きさを１にして表示する */
+	transform:		scale(1);
+}
+
+.box3 {
+	width:			auto;
+	height:			auto;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.box3 .caption {
+	font-size:		100%;
+	color:			#fff;
+	padding-top:		0px;
+}
+.box3 .mask {
+ z-index: 1;
+	width:			100%;
+	height:			25%;
+	position: fixed;
+	top:			150px;
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
+	transform:		scale(0);
+}
+.box3:hover .mask {
+	-webkit-transform:	scale(1);	/* 大きさを１にして表示する */
+	transform:		scale(1);
+}
+
+.box4 {
+	width:			auto;
+	height:			auto;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.box4 .caption {
+	font-size:		100%;
+	color:			#fff;
+	padding-top:		0px;
+}
+.box4 .mask {
+ z-index: 1;
+	width:			100%;
+	height:			25%;
+	position: fixed;
+	top:			150px;
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
+	transform:		scale(0);
+}
+.box4:hover .mask {
+	-webkit-transform:	scale(1);	/* 大きさを１にして表示する */
+	transform:		scale(1);
+}
+
+.box5 {
+	width:			auto;
+	height:			auto;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.box5 .caption {
+	font-size:		100%;
+	color:			#fff;
+	padding-top:		0px;
+}
+.box5 .mask {
+ z-index: 1;
+	width:			100%;
+	height:			25%;
+	position: fixed;
+	top:			150px;
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
+	transform:		scale(0);
+}
+.box5:hover .mask {
+	-webkit-transform:	scale(1);	/* 大きさを１にして表示する */
+	transform:		scale(1);
+}
+
+.box6 {
+	width:			auto;
+	height:			auto;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.box6 .caption {
+	font-size:		100%;
+	color:			#fff;
+	padding-top:		0px;
+}
+.box6 .mask {
+ z-index: 1;
+	width:			100%;
+	height:			25%;
+	position: fixed;
+	top:			150px;
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
+	transform:		scale(0);
+}
+.box6:hover .mask {
+	-webkit-transform:	scale(1);	/* 大きさを１にして表示する */
+	transform:		scale(1);
+}
+
+
+.role-image{
+  width:80px;
+  height:80px;
+  z-index: 0;
+}
+/*ここまで役割一覧*/
+
 
 /*―ここはトップページ*/
 .wrapper{
@@ -88,6 +367,14 @@
   
 }
 
+.wrapper2 {
+
+    font-style: inherit;
+    color: grey;
+    width: 100%;
+    font-size: 10.5px   
+}
+
 .whatbb{
   
   display:block;
@@ -98,25 +385,9 @@
   
 }
 
-.threekeys{
-  
-  display:block;
-  width:100%;
-  margin:0;
-  height:700px;
-  background-color:blue;
-  
-}
 
-.roles-top{
-  
-  display:block;
-  width:100%;
-  margin:0;
-  height:700px;
-  background-color:green;
-  
-}
+
+
 
 .login-signup{
   display:block;
@@ -128,6 +399,14 @@
 }
 
 /*ログインページのタイトル*/
+
+
+.row{
+  display: block;
+  height:500px;
+}
+
+
 .center {
     background-color:rgba(72,72,72,50);
     margin-top:100px;
@@ -158,10 +437,37 @@
     padding-top: 150px;
 }
 
+
+.title3{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 30px;
+
+  
+}
+
 .row {
-    margin-top:100px;
-    padding-top:30px;
+    text-align: center;
     padding-bottom:30px;
+}
+
+.gaiyou{
+  font-size: 30px;
+  
+}
+
+.rulepage ul{
+  padding-left:0;
+  
+}
+
+
+
+/*レジスター*/
+
+.register{
+  
+  font-size: 10.5px;
 }
 
 
@@ -197,12 +503,17 @@
 
 /*ルール全体*/
 
+.grpg{
+  font-size: medium;
+  
+}
+
 .rulepage {
     background-color:rgba(250,250,250,0.5);
-    margin-top:100px;
+
     padding-top:30px;
     padding-bottom:30px;
-    font-size: 30px;
+    font-size: 10.5px;
 }
 
 ul{
@@ -222,16 +533,33 @@ li .grandrule{
 .panel-body{
   max-width: 50%;
   margin: 0 auto;
+  font-size: 16px;
 }
+
+
+
 
 
 /*ユーザーページ*/
 
 .userpages {
     background-color:rgba(250,250,250,0.5);
-    margin-top:100px;
+
     padding-top:30px;
     padding-bottom:30px;
+}
+h1{
+  font-size: 25px;
+  
+}
+
+h2{
+  
+  font-size: 18px;
+}
+
+h3{
+  font-size:16px;
 }
 
 /*.nextpage{*/

@@ -7,7 +7,7 @@
 </div>
 
 <div class="row">
-<div class='col-mid-6 col-mid-offset-3'>
+<div class='col-xs-6 col-xs-offset-3'>
     {!! Form::open(['route'=>'login.post']) !!}
     <div class='form-group'>
         {!! Form::label('team_name','TeamID') !!}
