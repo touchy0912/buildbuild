@@ -45,15 +45,14 @@
     
     <!--ここから説明-->
     <div class='whatbb'>
-    
-            <p class="description">
-              このゲームは、チームビルディングの課題を解決するために開発されました。<br>
-              アイスブレイクやチームでの作業前にゲーム感覚で楽しみながら、<br>
-              以下の3点をクリアし、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
-            </p><br><br>
-            
-            
+        <p class="description">
+        このゲームは、チームビルディングの課題を解決するために開発されました。<br>
+        アイスブレイクやチームでの作業前にゲーム感覚で楽しみながら、<br>
+        以下の3点をクリアし、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
+        </p>
     </div>
+    
+    <!--ここから3keys-->
 <div class="threekeystitle">
     <font size="50">3 KEYS</font>
 </div>
@@ -85,8 +84,7 @@
 	            </div>
     </div>
 
- 
-    
+
     <div class='roles-top'>
         <font size="50">役職一覧</font>
         <div class="boxContainer">
