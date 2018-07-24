@@ -61,15 +61,37 @@
             
             
     </div>
+<div class="threekeystitle">
+    <font size="50">3 KEYS</font>
+</div>
     <div class='threekeys'>
-             <p>
-              ☆傾聴力<br>
-              ☆リスペクト<br>
-              ☆発言機会の均等化<br>
-              </p><br><br>
-    </div>  
-    
-    <div class='roles-top'>
+        <img src="/image/kintou2.jpg" width="480" height="350" alt="">
+            <div class="mask">
+		        <div class="caption">
+		            <br><br>
+		            偏りなく、皆が発言の機会を持つ！
+	            </div>
+    	    </div>
+    </div>
+	<div class='threekeys'>
+	    <img src="/image/keicho2.jpg" width="480" height="350" alt="">
+            <div class="mask">
+		        <div class="caption">
+		            <br><br>メンバーの話を聞く姿勢を大切に！
+                </div>
+	        </div>
+    </div>
+
+    <div class='threekeys'>
+        <img src="/image/respect2.jpg" width="480" height="350" alt="">
+            <div class="mask">
+		        <div class="caption">
+		            <br><br>
+		            互いの意見を尊重しあう！</div>
+	            </div>
+    </div>
+
+        <div class='roles-top'>
         役職一覧
     </div>
               
