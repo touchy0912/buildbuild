@@ -1,5 +1,6 @@
 @charset "UTF-8";
-
+@import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
 
 body{
     background-color: rgba(0,0,0,0.8);
@@ -82,11 +83,8 @@ body{
 
 
 .whatbb{
-  font-family: MS Sans Selif;
-  font-weight: bold;
   background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,0.4)  60%);
   /*background-color: rgba(0,0,0,0.4);*/
-  display:flex;
   align-items: center;
   justify-content: center;
   width:100%;
@@ -95,13 +93,31 @@ body{
   color: white;
 }
 
-
-.description{
-  font-size: medium;
-  padding:10px 10px 10px 10px;
+.whatstitle{
+  display: block;
+  padding-top: 50px;
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+  width: 100%;
 }
 
+.description{
+  display: block;
+  font-family: Meiryo;
+  font-size: 20px;
+  margin-top: 100px
+}
 
+.ieruka {
+  font-weight: 200;
+}
+
+.keys {
+  font-family: "Sawarabi Gothic";
+  font-weight: bold;
+}
 
 .threekeys {
   height:180px;
@@ -120,6 +136,7 @@ body{
   font-family: MS Sans Selif;
   font-weight: bold;
   color: black;
+  font-size: 40px;
 }
 .threekeys .caption {
 	font-size:		100%;
@@ -402,6 +419,12 @@ body{
 
 /*ここまで役割一覧*/
 
+.poststitle{
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  color: black;
+  font-size: 50px;
+}
 
 /*―ここはトップページ*/
 .wrapper{
@@ -447,10 +470,6 @@ body{
   font-size: 30px;
   
 }
-
-
-
-
 .login-signup{
   display:block;
   width:100%;
@@ -492,9 +511,10 @@ body{
 }
 
 .title2 {
-    font-family: 'IM Fell DW Pica SC', serif;
+    font-family: 'Hannari';
     color: white;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: bold;
     padding-top: 150px;
 }
 
@@ -503,8 +523,10 @@ body{
     font-family: 'Permanent Marker', cursive;
     color: white;
     font-size: 30px;
+}
 
-  
+.title4 {
+    font-family: 'Hannari';
 }
 
 .row {
@@ -514,15 +536,17 @@ body{
 
 .gaiyou{
   font-size: 30px;
-  
+}
+
+.yakusyoku {
+  font-family: "Sawarabi Gothic";
+  color:white;
+  font-size: 50px;
 }
 
 .rulepage ul{
   padding-left:0;
-  
 }
-
-
 
 /*レジスター*/
 

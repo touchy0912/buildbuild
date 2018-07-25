@@ -45,7 +45,7 @@
 </div>
     @else
     <div class='title'>
-    <h2 class="title2">ビル　　　ビル</h2>
+    <h2 class="title2">ビル　　　　ビル</h2>
     <h1 class="title1">Build Build</h1>
     <h1 class="title4">～ここにキャッチフレーズ～</h1><br><br>
             <div class="description3">
@@ -64,16 +64,18 @@
     <!--ここから説明-->
     <div class='whatbb'>
         
-        <h1 class="description">-WHAT BB FOR-<br><br><br><br><br>
-        このゲームは、チームビルディングの課題を解決するために開発されました。<br>
-        アイスブレイクやチームでの作業前にゲーム感覚で楽しみながら、<br>
-        以下の3点をクリアし、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
-        </h1>
+        <div class='whatstitle'>-WHAT BB FOR-</div>
+        <div class="description">このゲームは、チームビルディングの課題を解決するために開発されました。<br><br>
+        アイスブレイクやチームでの作業前に、ゲーム感覚で楽しみながら<br>
+        以下の3点をクリアし、<span class="ieruka">「言える化」= 意見を言いやすい環境の構築</span>を目指しましょう！
+        </div>
     </div>
     
     <!--ここから3keys-->
 <div class="threekeystitle">
     -3 KEYS-
+    <h1 class=keys>「言える化」構築のための３つの要素</h1>
+
 </div>
     <div class='threekeys'>
 
@@ -108,6 +110,7 @@
 
     <div class='roles-top'>
         <font class='poststitle' id='post6'>-ASSIGNED 6 POSTS-</font>
+        <h1 class=keys>1ゲームごとに、ランダムで6つの役割に振り分けられる</h1>
         <div class="boxContainer">
             
             <div class="box1"><img src="/media/tereope.png" class='role-image'>

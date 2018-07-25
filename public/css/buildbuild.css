@@ -1,7 +1,8 @@
 @charset "UTF-8";
 @import 'https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic,cyrillic-ext,latin-ext';
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
-
+@import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
 @font-face{ 
 	font-family: 'userfont';
 	src: url('../font/TanukiMagic.ttf') format('truetype')
@@ -16,7 +17,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
-    font-family: Meiryo;
+    font-family: "Sawarabi Gothic";
 
   
 }
@@ -151,17 +152,33 @@
 }
 
 .whatbb{
-  font-family: MS Sans Selif;
-  font-weight: bold;
   background: linear-gradient(to bottom, rgba(255,255,255,0),rgba(0,0,0,0.4)  60%);
   /*background-color: rgba(0,0,0,0.4);*/
-  display:flex;
   align-items: center;
   justify-content: center;
   width:100%;
   margin:0;
   height:730px;
   color: white;
+}
+.whatstitle{
+  display: block;
+  padding-top: 50px;
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  font-size: 50px;
+  color: black;
+  width: 100%;
+}
+.description{
+  display: block;
+  font-family: "Sawarabi Gothic";
+  font-size: 30px;
+  margin-top: 100px
+}
+
+.description2 {
+  font-family: "Sawarabi Gothic";
 }
 
 .description3 span{
@@ -178,23 +195,17 @@
   text-align: center;
   text-decoration: none;
   width: 240px;
-
-  
-  
 }
 
+.ieruka {
+  font-size: 40px;
+  font-weight: bold;
+}
 
-
-/*.threekeys{*/
-  
-/*  display:block;*/
-/*  margin:0;*/
-/*  height:700px;*/
-/*  background-color:blue;*/
-/*  display: inline-block;*/
-/*  object-fit: cover;*/
-  
-/*}*/
+.keys {
+  font-family: "Sawarabi Gothic";
+  font-weight: bold;
+}
 
 .threekeys {
   height:auto;
@@ -259,19 +270,20 @@
   display:block;
   width:100%;
   margin:0;
-  height:800px;
+  height:880px;
   background-color: white;
+  padding-top: 30px;
 }
 
 .boxContainer {
   margin: 0;   
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 100%;
   column-count: 3;
   column-gap: 50;
   
 }
-
 
 .box1 {
 	width:			320px;
@@ -490,10 +502,6 @@
 	-webkit-transform:	scale(1);	/* 大きさを１にして表示する */
 	transform:		scale(1);
 }
-.post6{
-  font-size: 50px;
-  
-}
 
 /*ここまで役割一覧*/
 
@@ -543,9 +551,10 @@
 }
 
 .title2 {
-    font-family: 'IM Fell DW Pica SC', serif;
+    font-family: 'Hannari';
     color: white;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: bold;
     padding-top: 150px;
 }
 
@@ -559,7 +568,7 @@
 
 .title4{
   color:white;
-
+  font-family: 'Hannari';
 }
 
 .row {
@@ -591,8 +600,16 @@
   border-bottom: solid 1px black;
 }
 
+
 .gaiyou:before {left:0;}
 .gaiyou:after {right: 0;}
+
+
+.yakusyoku {
+  font-family: "Sawarabi Gothic";
+  color:white;
+  font-size: 50px;
+}
 
 
 .button{
@@ -807,30 +824,18 @@ li .grandrule{
     padding-bottom:30px;
 }
 
+
 .usersan{
   font-size: 50px;
   color:black;
   font-family:userfont;
 }
-
-
-/*.nextpage{*/
-/*    background-color:rgba(250,250,250,0.5);*/
-/*    margin-top:100px;*/
-/*    padding-top:30px;*/
-/*    padding-bottom:30px;*/
-/*    position:relative;*/
-/*}*/
-
 .nextpagebtn{
    background-color:rgba(250,250,250,0.5);
     margin-top:100px;
     padding-top:30px;
     padding-bottom:30px;
     position:relative;
-    
-    
-    
 }
 
 
