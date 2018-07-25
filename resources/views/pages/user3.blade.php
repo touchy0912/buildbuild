@@ -25,14 +25,13 @@
     <img class='media-object img-rounded img-responsive center-block' src= "{{ $role["fig_name"] }}" alt="">
 </div>
 
-<h2>あなたの役職は【{{$role['role']}}】です</h2>
+<h2>あなたの役職は<span class='mission'>【{{$role['role']}}】</span>です</h2>
 
 <h3>{{$role['rule1']}}</h3>
-<h2>【MISSION】</h2>
-<h3>{{$role['rule2']}} </h3>
-<h3>{{$role['rule3']}}</h3>
+<h2 class='mission'>【MISSION】</h2>
+<h3 class='mission2'>{{$role['rule2']}} </h3>
+<h3 class='mission2'>{{$role['rule3']}}</h3>
 @endif
-
 <?php $s++; ?>
 @endforeach
 
