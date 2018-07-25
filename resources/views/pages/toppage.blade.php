@@ -43,7 +43,13 @@
     <div class='title'>
     <h2 class="title2">ビル　　　ビル</h2>
     <h1 class="title1">Build Build</h1>
-    <h1 class="title4">～ここにキャッチフレーズ～</h1>
+    <h1 class="title4">～ここにキャッチフレーズ～</h1><br><br>
+            <div class="description3">
+                <span>
+                {!! link_to_route('login','　　Login　　') !!}
+                </span>    
+    
+        </div>
     </div>
     
     
@@ -51,7 +57,7 @@
     <!--ここから説明-->
     <div class='whatbb'>
         
-        <h1 class="description">WHAT BB FOR <br><br><br><br><br>
+        <h1 class="description">-WHAT BB FOR-<br><br><br><br><br>
         このゲームは、チームビルディングの課題を解決するために開発されました。<br>
         アイスブレイクやチームでの作業前にゲーム感覚で楽しみながら、<br>
         以下の3点をクリアし、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
@@ -60,7 +66,7 @@
     
     <!--ここから3keys-->
 <div class="threekeystitle">
-    <font size="50">3 KEYS</font>
+    <font size="50">-3 KEYS-</font>
 </div>
     <div class='threekeys'>
 
@@ -94,7 +100,7 @@
 
 
     <div class='roles-top'>
-        <font class='post6'>ASSIGNED 6 POSTS</font>
+        <font class='poststitle' id='post6'>-ASSIGNED 6 POSTS-</font>
         <div class="boxContainer">
             
             <div class="box1"><img src="/media/tereope.png" class='role-image'>
@@ -145,20 +151,18 @@
     
     <div class='login-signup'>
         
-        <h1 class="button">Sign up now!</h1>
+        <br><br><font class="button">-Sign up now!-</font><br><br>
+        
         <li>
         <div class="description2">
-                    {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
-                    <h3>未登録のチーム</h3>
+            <h3>チーム登録の説明文を入れる？</h3>
     
+                    {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
+                    
         </li>
             
     <!--ログイン機能に関しては表示場所要検討        -->
-        <li class="description3">
-                    {!! link_to_route('login','Login',null,['class'=>'btn btn-lg btn-info']) !!}
-                    <h3>登録済みのチーム</h3>
-    
-        </li>
+
         </ul>
         
     

@@ -121,6 +121,27 @@ body{
   color: white;
 }
 
+.description3 span{
+  margin-right: 30px;
+  background:transparent;
+  border: 4px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 30px auto;
+  padding: 15px 0;
+  text-align: center;
+  text-decoration: none;
+  width: 240px;
+
+  
+  
+}
+
+
+
 /*.threekeys{*/
   
 /*  display:block;*/
@@ -187,6 +208,7 @@ body{
   font-family: MS Sans Selif;
   font-weight: bold;
   color: black;
+  font-size: 50px;
 }
 
 .roles-top{
@@ -435,7 +457,7 @@ body{
 .login-signup{
   width:100%;
   margin:0;
-  height:500px;
+  height:300px;
 
   display: block;
 }
@@ -518,6 +540,7 @@ body{
   font-family: MS Sans Selif;
   font-weight: bold;
   color: black;
+  font-size: 50px;
   margin-top: 0;
   padding-top: 10px;
 }
@@ -543,9 +566,21 @@ body{
 }
 
 .btn {
-    background-color:rgba(255,94,25,.6);
-    border: solid gray;
-    margin-top: 75px;
+  background-color: hsl(175, 78%, 46%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3fbf9", endColorstr="#19d0c1");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#e3fbf9), to(#19d0c1));
+  background-image: -moz-linear-gradient(top, #e3fbf9, #19d0c1);
+  background-image: -ms-linear-gradient(top, #e3fbf9, #19d0c1);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3fbf9), color-stop(100%, #19d0c1));
+  background-image: -webkit-linear-gradient(top, #e3fbf9, #19d0c1);
+  background-image: -o-linear-gradient(top, #e3fbf9, #19d0c1);
+  background-image: linear-gradient(#e3fbf9, #19d0c1);
+  border-color: #19d0c1 #19d0c1 hsl(175, 78%, 34%);
+  color: #333 !important;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.79);
+  -webkit-font-smoothing: antialiased;
+
 }
 .btn:hover {
     background-color: rgba(255, 255, 255, .2);
