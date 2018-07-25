@@ -2,7 +2,7 @@
 
 
 @section('content')
-    <h1 class=yakusyoku>役職一覧</h1>
+    <h1 class=yakusyoku>Posts</h1>
 <div class="boxContainer">
     <div class="box1"><img src="/media/tereope.png" class='role-image'>
         <div class="mask">
@@ -26,7 +26,7 @@
     </div>
     <div class="box4"><img src="/media/serch.png" class='role-image'>
         <div class="mask">
-            <div class="caption"><h3>黒ずくめ</h3><br>
+            <div class="caption"><h3>影のリーダー</h3><br>
             議論を仕切っている人を、陰で全力でサポートする</div>
     	</div>
     </div>
@@ -47,9 +47,11 @@
 
 
 </div>
-
-            <a href="{{route('games.index')}}" class="btn btn-lg">
+<div>
+    <span class='mouiya'>
+            <a href="{{route('games.index', null)}}" class="btn btn-lg">
             <button class='cssbtn2'>　TopPageへ　</button>    
             </a>
-
+    </span>
+</div>
 @endsection

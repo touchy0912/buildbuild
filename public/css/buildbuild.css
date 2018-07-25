@@ -41,6 +41,13 @@
 }
 
 
+
+
+.nav>li>a.hover:focus, .nav>li>a.hover:hover {
+  background-color: transparent;
+  color: #23527c;
+}
+
 /*Layout.app用CSS*/
 .container{
     text-align:center;
@@ -103,7 +110,7 @@
 .dropdown-item {
   color: black;
   width:185px;
-  font-family: MS UI Gothic;
+  font-family: 'Permanent Marker', cursive;
   /*font-family: MS Sans Serif;*/
 }
 
@@ -778,6 +785,10 @@ li .grandrule{
 
 .grmargin{
   margin-top: 50px;
+}
+
+.mouiya{
+  padding: 470px;
 }
 
 /*user1 page*/
