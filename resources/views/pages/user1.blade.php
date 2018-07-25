@@ -8,7 +8,8 @@
 @foreach($users as $user)
 
 @if($i==1)
-<h2>{{$user}} さん</h2>
+
+<h2><span class='usersan'>{{$user}}</span>さん</h2>
 
 
 @endif
