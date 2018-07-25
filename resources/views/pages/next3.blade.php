@@ -8,7 +8,8 @@
 
 @if($i==4)
 <h2>次は<span class='username'>{{$user}}</span>さんです</h2>
-<h3>この画面のまま、次の人に渡してください</h3>
+<h3>この画面のまま、次の人に渡してください<br><br></h3>
+<h3>デバイスを渡された人は、下のボタンを押してください</h3>
 
 @endif
 
@@ -23,7 +24,7 @@
 {!! Form::open(['route'=>['role.user4',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
 <button class="cssbtn2" type="submit">
-次のユーザーへ
+役職を見る
 </button>
 {!! Form::close() !!}
 </div>
