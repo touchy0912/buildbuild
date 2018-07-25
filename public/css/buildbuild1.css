@@ -549,7 +549,7 @@
 }
 
 .title2 {
-    font-family: 'Hannari';
+    font-family: 'userfont';
     color: white;
     font-size: 25px;
     font-weight: bold;
@@ -564,7 +564,8 @@
 }
 
 .title4 {
-    font-family: 'Hannari';
+    font-family: 'userfont';
+    color:white;
 }
 
 .row {
