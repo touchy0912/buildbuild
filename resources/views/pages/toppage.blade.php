@@ -30,7 +30,11 @@
 
 
     <div class='topbutton'>
-    {!! link_to_route('games.grandrule',"Let's get started",null,['class'=>'btn btn-lg btn-info']) !!}
+        
+            <a href="{{route('games.grandrule')}}" class="btn btn-lg">
+            <button class='cssbtn2'>　Let's get started　</button>    
+            </a>
+
     </div>
 </div>
    
@@ -45,9 +49,12 @@
     <h1 class="title1">Build Build</h1>
     <h1 class="title4">～ここにキャッチフレーズ～</h1><br><br>
             <div class="description3">
-                <span>
-                {!! link_to_route('login','　　Login　　') !!}
-                </span>    
+            
+                    
+            <a href="{{route('login')}}" class="btn btn-lg">
+            <button class='cssbtn'>　Login　</button>    
+            </a>
+                 
     
         </div>
     </div>
@@ -66,7 +73,7 @@
     
     <!--ここから3keys-->
 <div class="threekeystitle">
-    <font size="50">-3 KEYS-</font>
+    -3 KEYS-
 </div>
     <div class='threekeys'>
 
@@ -153,13 +160,11 @@
         
         <br><br><font class="button">-Sign up now!-</font><br><br>
         
-        <li>
         <div class="description2">
             <h3>チーム登録の説明文を入れる？</h3>
-    
-                    {!! link_to_route('signup.get','Signup',null,['class'=>'btn btn-lg btn-info']) !!}
-                    
-        </li>
+    <a href="{{route('signup.get')}}" class="btn btn-lg">
+        <button class='cssbtn'>Signup</button>    
+    </a>
             
     <!--ログイン機能に関しては表示場所要検討        -->
 

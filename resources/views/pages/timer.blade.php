@@ -30,11 +30,13 @@
 <?php  $users=urlencode(serialize($users));
        $roles=urlencode(serialize($roles)); ?>
        
-
+<br><br>
 {!! Form::open(['route'=>'thema.feedback','name'=>'java']) !!}
 {!! Form::hidden('roles',$roles) !!}
 {!! Form::hidden('users',$users) !!}
-{!! Form::submit('NEXT',["class"=>"btn btn-default btn-lg"]) !!}
+<button class="cssbtn2" type="submit">
+Next
+</button>
 {!! Form::close() !!}
 
 

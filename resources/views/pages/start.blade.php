@@ -34,7 +34,9 @@
 {!! Form::open(['route'=>['thema.timer',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
 {!! Form::hidden('themas',$themas) !!}
-{!! Form::submit('TIMER START',["class"=>"btn btn-default btn-lg"]) !!}
+<button class="cssbtn2" type="submit">
+Timer Start
+</button>
 {!! Form::close() !!}
 
 

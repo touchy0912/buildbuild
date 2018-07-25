@@ -1,6 +1,8 @@
 @charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic,cyrillic-ext,latin-ext';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 
-body{
+.body2{
     background-color: rgba(0,0,0,0.8);
     background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
     background-position: center center;
@@ -9,6 +11,19 @@ body{
     background-size: 100% auto;
     font-family: Meiryo;
 
+  
+}
+
+
+/*ログイン後の背景色はここで変更*/
+.body1{
+    background-color: rgba(0,0,0,0.8);
+    background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    font-family: Meiryo;
   
 }
 
@@ -88,7 +103,7 @@ body{
 }
 
 .wrapper2 {
-
+    
     font-style: inherit;
     color: grey;
     width: 100%;
@@ -96,17 +111,18 @@ body{
 }
 
 
-.wrapper3{
-  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/skateboard.JPG');
+
+
+.wrapper4{
+  
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/basketgoal.JPG');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% auto;
   width:100%;
   display: block;
-  height: 800px;
-
-  
+  height: 1000px;
 }
 
 .whatbb{
@@ -571,26 +587,115 @@ body{
     
 }
 
-.btn {
-  background-color: hsl(175, 78%, 46%) !important;
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e3fbf9", endColorstr="#19d0c1");
-  background-image: -khtml-gradient(linear, left top, left bottom, from(#e3fbf9), to(#19d0c1));
-  background-image: -moz-linear-gradient(top, #e3fbf9, #19d0c1);
-  background-image: -ms-linear-gradient(top, #e3fbf9, #19d0c1);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e3fbf9), color-stop(100%, #19d0c1));
-  background-image: -webkit-linear-gradient(top, #e3fbf9, #19d0c1);
-  background-image: -o-linear-gradient(top, #e3fbf9, #19d0c1);
-  background-image: linear-gradient(#e3fbf9, #19d0c1);
-  border-color: #19d0c1 #19d0c1 hsl(175, 78%, 34%);
-  color: #333 !important;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.79);
-  -webkit-font-smoothing: antialiased;
+.cssbtn {
+  color:#454545;
+  background:transparent;
+  border-width:2px;
+  border-style: solid;
+  border-color: #454545;
+  position:relative;
+  margin:1em;
+  display:inline-block;
+  padding:0.5em 1em;
+  transition:all 0.3s ease-in-out;
+  text-align:center;
+  font-family:comfortaa;
+  font-weight:bold;
+}
+  button:before, 
+  button:after {
+    content:'';
+    display:block;
+    position:absolute;
+    border-color:#454545;
+    box-sizing:border-box;
+    border-style:solid;
+    width:1em;
+    height:1em;
+    transition:all 0.3s ease-in-out}
+button:before {
+  top:-6px;
+  left:-6px;
+  border-width:2px 0 0 2px;
+  z-index:5;}
+button:after {
+  bottom:-6px;
+  right:-6px;
+  border-width:0 2px 2px 0;
+}
+button:hover:before, 
+button:hover:after {
+  width:calc(100% + 12px);
+  height:calc(100% + 12px);
+  border-color:#fff}
+button:hover {
+  color:#353535;
+  background-color:#fff;
+  border-color:#fff
+  
+}
 
+.cssbtn a{
+  color:#454545;
 }
-.btn:hover {
-    background-color: rgba(255, 255, 255, .2);
+
+
+.cssbtn2 {
+  color:#454545;
+  background:transparent;
+  border-width:2px;
+  border-style: solid;
+  border-color: black;
+  position:relative;
+  margin:1em;
+  display:inline-block;
+  padding:0.5em 1em;
+  transition:all 0.3s ease-in-out;
+  text-align:center;
+  font-family:comfortaa;
+  font-weight:bold;
+  font-size: 15px
 }
+  button:before, 
+  button:after {
+    content:'';
+    display:block;
+    position:absolute;
+    border-color:#454545;
+    box-sizing:border-box;
+    border-style:solid;
+    width:1em;
+    height:1em;
+    transition:all 0.3s ease-in-out}
+button:before {
+  top:-6px;
+  left:-6px;
+  border-width:2px 0 0 2px;
+  z-index:5;}
+button:after {
+  bottom:-6px;
+  right:-6px;
+  border-width:0 2px 2px 0;
+}
+button:hover:before, 
+button:hover:after {
+  width:calc(100% + 12px);
+  height:calc(100% + 12px);
+  border-color:#fff}
+button:hover {
+  color:#353535;
+  background-color:#fff;
+  border-color:#fff
+  
+}
+
+.cssbtn2 a{
+  color:black;
+}
+
+
+
+
 
 /*grandrule*/
 
@@ -599,6 +704,7 @@ body{
 .rulepage {
     background-color:rgba(250,250,250,0.5);
     padding-bottom:30px;
+    margin-top: 20px;
     font-size: 30px;
 }
 
@@ -610,6 +716,10 @@ li .grandrule{
 }
 .grandrule{
     color:red;
+}
+
+.grmargin{
+  margin-top: 50px;
 }
 
 /*user1 page*/

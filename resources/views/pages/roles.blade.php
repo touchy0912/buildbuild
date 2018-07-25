@@ -21,5 +21,8 @@
         </table>
 @endif
 
-{!! link_to_route('games.index',"トップページへ戻る",null,['class'=>'btn btn-lg btn-info']) !!}
+            <a href="{{route('games.index')}}" class="btn btn-lg">
+            <button class='cssbtn2'>　TopPageへ　</button>    
+            </a>
+
 @endsection

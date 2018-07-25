@@ -24,7 +24,11 @@
 
 {!! Form::open(['route'=>['role.user2',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
-{!! Form::submit('次のユーザーへ',["class"=>"btn btn-default btn-lg"]) !!}
+
+<button class="cssbtn2" type="submit">
+次のユーザーへ
+</button>
+
 {!! Form::close() !!}
 </div>
 

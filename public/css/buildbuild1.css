@@ -116,6 +116,7 @@ body{
 }
 .threekeystitle {
   padding-top: 30px;
+  font-size: 30px;
   font-family: MS Sans Selif;
   font-weight: bold;
   color: black;
@@ -392,6 +393,13 @@ body{
   
 }
 
+.poststitle{
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+}
+
 /*ここまで役割一覧*/
 
 
@@ -417,9 +425,28 @@ body{
     font-size: 10.5px   
 }
 
+.wrapper4{
+  
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/as.jpg');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 150% auto;
+  width:100%;
+  display: block;
+  height: 650px;
+
+}
 
 
 
+.button{
+  font-family: MS Sans Selif;
+  font-weight: bold;
+  color: black;
+  font-size: 30px;
+  
+}
 
 
 
@@ -428,7 +455,7 @@ body{
   display:block;
   width:100%;
   margin:0;
-  height:700px;
+  height:300px;
   
 }
 
@@ -524,14 +551,119 @@ body{
     
 }
 
-.btn {
-    background-color:rgba(255,94,25,.6);
-    border: solid gray;
-    margin-top: 75px;
+
+
+
+
+.cssbtn {
+  color:#454545;
+  background:transparent;
+  border-width:2px;
+  border-style: solid;
+  border-color: #454545;
+  position:relative;
+  margin:1em;
+  display:inline-block;
+  padding:0.5em 1em;
+  transition:all 0.3s ease-in-out;
+  text-align:center;
+  font-family:comfortaa;
+  font-weight:bold;
 }
-.btn:hover {
-    background-color: rgba(255, 255, 255, .2);
+  button:before, 
+  button:after {
+    content:'';
+    display:block;
+    position:absolute;
+    border-color:#454545;
+    box-sizing:border-box;
+    border-style:solid;
+    width:1em;
+    height:1em;
+    transition:all 0.3s ease-in-out}
+button:before {
+  top:-6px;
+  left:-6px;
+  border-width:2px 0 0 2px;
+  z-index:5;}
+button:after {
+  bottom:-6px;
+  right:-6px;
+  border-width:0 2px 2px 0;
 }
+button:hover:before, 
+button:hover:after {
+  width:calc(100% + 12px);
+  height:calc(100% + 12px);
+  border-color:#fff}
+button:hover {
+  color:#353535;
+  background-color:#fff;
+  border-color:#fff
+  
+}
+
+.cssbtn a{
+  color:#454545;
+}
+
+
+.cssbtn2 {
+  color:#454545;
+  background:transparent;
+  border-width:2px;
+  border-style: solid;
+  border-color: black;
+  position:relative;
+  margin:1em;
+  display:inline-block;
+  padding:0.5em 1em;
+  transition:all 0.3s ease-in-out;
+  text-align:center;
+  font-family:comfortaa;
+  font-weight:bold;
+  font-size: 15px
+}
+  button:before, 
+  button:after {
+    content:'';
+    display:block;
+    position:absolute;
+    border-color:#454545;
+    box-sizing:border-box;
+    border-style:solid;
+    width:1em;
+    height:1em;
+    transition:all 0.3s ease-in-out}
+button:before {
+  top:-6px;
+  left:-6px;
+  border-width:2px 0 0 2px;
+  z-index:5;}
+button:after {
+  bottom:-6px;
+  right:-6px;
+  border-width:0 2px 2px 0;
+}
+button:hover:before, 
+button:hover:after {
+  width:calc(100% + 12px);
+  height:calc(100% + 12px);
+  border-color:#fff}
+button:hover {
+  color:#353535;
+  background-color:#fff;
+  border-color:#fff
+  
+}
+
+.cssbtn2 a{
+  color:black;
+}
+
+
+
+
 
 /*grandrule*/
 
