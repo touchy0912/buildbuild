@@ -6,7 +6,7 @@
 <div class="rulepage">
 
 <h1>フィードバックタイム</h1>
-<br>
+<br>【役職公開】<br>
 <h2>チーム全体で、今の席の右隣の人へ順番に、<br>ポジティブなフィードバックを1人ずつしてください。</h2>
 
 
@@ -14,7 +14,7 @@
 
 
  <table class="table table-bordered">
-     <caption align='center'>役職公開！</caption>
+     <caption align='center'></caption>
 
             <tbody>
                 <tr>
