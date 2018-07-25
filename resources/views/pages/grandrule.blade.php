@@ -12,7 +12,7 @@
                 @if($i==1)
                 <br><br>
 
-                    <div class='grpg'><sapn class='username'>{{$user}}</span>さんにこのデバイスを渡してください</div><br><br>
+                    <div class='grpg'><sapn class='username'>{{$user}}さん</span>にこのデバイスを渡してください</div><br><br>
 
 
                 @endif

@@ -1,18 +1,40 @@
 @charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic,cyrillic-ext,latin-ext';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 @import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
 @import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
+@font-face{ 
+	font-family: 'userfont';
+	src: url('../font/TanukiMagic.ttf') format('truetype')
+}
 
-body{
+
+
+.body2{
     background-color: rgba(0,0,0,0.8);
     background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% auto;
-    font-family: Meiryo;
+    font-family: "Sawarabi Gothic";
 
   
 }
+
+
+/*ログイン後の背景色はここで変更*/
+.body1{
+    background-color: rgba(0,0,0,0.8);
+    background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%);
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+    font-family: Meiryo;
+  
+}
+
 
 /*Layout.app用CSS*/
 .container{
@@ -444,7 +466,7 @@ body{
   background-size: 150% auto;
   width:100%;
   display: block;
-  height: 1170px;
+  height: 1270px;
 
   
 }
@@ -555,6 +577,24 @@ body{
 
 .rulepage ul{
   padding-left:0;
+}
+
+
+.timerpage{
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/hand.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  width:100%;
+  display: block;
+  height: 800px;
+  
+}
+
+.timerpage2{
+  
+  padding-top:  150px;
 }
 
 /*レジスター*/
@@ -736,9 +776,18 @@ li .grandrule{
 }
 
 
+
 .mouiya{
   padding: 90px;
 }
+
+.username{
+  color:black;
+  font-size: 20px;
+  font-family:userfont;
+}
+
+
 
 
 /*ユーザーページ*/
@@ -748,6 +797,12 @@ li .grandrule{
 
     padding-top:30px;
     padding-bottom:30px;
+}
+
+.usersan{
+  font-size: 20px;
+  color:black;
+  font-family:userfont;
 }
 h1{
   font-size: 25px;
@@ -785,6 +840,10 @@ h3{
 
 
 /*ここからタイマー*/
+
+.timerfont{
+  color:black;
+}
 
 h1 .timer {
   font-family:'Roboto Condensed', cursive;
