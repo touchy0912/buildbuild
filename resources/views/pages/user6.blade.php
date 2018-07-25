@@ -44,7 +44,9 @@
        
 {!! Form::open(['route'=>['thema.random',$users]]) !!}
 {!! Form::hidden('roles',$roles) !!}
-{!! Form::submit('GAME START',["class"=>"btn btn-default btn-lg"]) !!}
+<button class="cssbtn2" type="submit">
+次のユーザーへ
+</button>
 {!! Form::close() !!}
 
 </div>

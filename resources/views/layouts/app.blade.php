@@ -25,10 +25,22 @@
 
         
     </head>
-    <body>
+    
+    @if(Auth::check())
+    
+    <body class='body1'>
     @yield('content2')
     
 
     </body>
+    
+    @else
+    
+    <body class='body2'>
+    @yield('content2')
+    
 
+    </body>
+    
+    @endif
 </html>

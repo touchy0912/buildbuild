@@ -4,7 +4,7 @@
 
 
 <div class="rulepage">
-        <div class="">
+        <div class="grmargin">
                         
                 <?php $i=1 ?>
                 @foreach($users as $user)
@@ -56,7 +56,11 @@
              <?php  $users=urlencode(serialize($users)); 
             ?>
             
-            {!! link_to_route("role.user1", "次へ", ['users'=>$users], ["class"=>"btn btn-default btn-lg"]) !!}
+            <a href="{{route('role.user1',['users'=>$users])}}" class="btn btn-lg">
+            <button class='cssbtn2'>　Next　</button>    
+            </a>
+            
+            
         </div>
     </div>
 @endsection

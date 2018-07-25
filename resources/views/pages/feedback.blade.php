@@ -34,8 +34,10 @@
         </table>
 
 
+            <a href="{{route('thema.gameend')}}" class="btn btn-lg">
+            <button class='cssbtn2'>　Next　</button>    
+            </a>
 
-{!! link_to_route("thema.gameend","NEXT", '', ["class"=>"btn btn-default btn-lg"]) !!}
 
 
 </div>

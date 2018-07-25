@@ -18,7 +18,10 @@
         {!! Form::password('password',['class'=>'form-control'])  !!}
     </div>
     
-    {!! Form::submit('Log in',['class'=>'btn btn-primary btn-block']) !!}
+    
+    <button class="cssbtn2" type="submit">
+Login
+</button>
     
     {!!  Form::close() !!}
     

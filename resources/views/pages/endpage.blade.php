@@ -9,7 +9,10 @@
 <br>
 <h2>今日も元気に頑張りましょう！</h2>
 
-{!! link_to_route("games.index","FINISH", '', ["class"=>"btn btn-default btn-lg"]) !!}
+            <a href="{{route('games.index')}}" class="btn btn-lg">
+            <button class='cssbtn2'>　Finish　</button>    
+            </a>
+
 
 </div>
 @endsection
