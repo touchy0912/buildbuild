@@ -16,14 +16,15 @@
 <div class="rulepage"> 
 
     
-        <font class='gaiyou'>Introduction</font><br><br>
-       <ul>
+        <br><font class='gaiyou'>Introduction</font><br><br>
+       <ul><br>
 
-            <li>ゲーム開始後、全員に役割が振り分けられます。</li><br>
-            <li>役割を当てるゲームではありませんが、<br>最後に役割が公開されるので、<br>ほかのプレイヤーには自分の役割はシェアしないでください。</li><br>
-            <li>【役割一覧は{!! link_to_route('roles.list','こちら',null) !!}】</li><br>
-            <li>お題をもとに、制限時間内にディスカッションをして頂きます。</li><br>
-            <li>ゲーム後にフィードバックをして頂き、終了です。</li><br>
+            <li>①ゲーム開始後、全員に役割が振り分けられます。</li><br>
+            <li>②役割を当てるゲームではありません。</li><br>
+            <li>③最後に役割が公開されるので、自分の役割は教えないでください。</li><br>
+            <li>【振り分けられる役割は{!! link_to_route('roles.list','こちら',null) !!}】</li><br>
+            <li>④お題に沿って、制限時間内にディスカッションをしてください。</li><br>
+            <li>⑤最後にフィードバックをし、終了です！</li><br><br>
 
        </ul>
   
@@ -57,10 +58,10 @@
     <!--ここから説明-->
     <div class='whatbb'>
         
-        <h1 class="description">-WHAT BB FOR-<br><br><br><br><br>
-        このゲームは、チームビルディングの課題を解決するために開発されました。<br>
-        アイスブレイクやチームでの作業前にゲーム感覚で楽しみながら、<br>
-        以下の3点をクリアし、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
+        <h1 class="description">-WHAT "Build Build" FOR?-<br><br><br>
+        <font size="30px">「チームビルディングの課題を解決したい」</font><br><br><br><br>そんな思いで、このゲームを開発しました。<br><br>
+        アイスブレイクや、チームでの作業前にゲーム感覚で楽しみながら、<br><br>
+        以下の3点を守り、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
         </h1>
     </div>
     
@@ -125,7 +126,7 @@
             </div>
             <div class="box4"><img src="/media/serch.png" class='role-image'>
                 <div class="mask">
-		            <div class="caption"><h3>黒ずくめ</h3><br>
+		            <div class="caption"><h3>影のリーダー</h3><br>
 		            議論を仕切っている人を、陰で全力でサポートする</div>
             	</div>
             </div>
