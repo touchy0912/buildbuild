@@ -55,8 +55,9 @@
             <a href="{{route('login')}}" class="btn btn-lg">
             <button class='cssbtn'>　Login　</button>    
             </a>
-                 
-    
+             <div class='scroll'>
+                <a href="#scroll"><span></span></a>
+            </div>
         </div>
     </div>
     
@@ -66,7 +67,7 @@
     <div class='whatbb'>
         
 
-        <h1 class="description">-WHAT "Build Build" FOR?-<br><br><br>
+        <h1 class="description" id='scroll'>-WHAT "Build Build" FOR?-<br><br><br>
         <font size="30px">「チームビルディングの課題を解決したい」</font><br><br><br><br>そんな思いで、このゲームを開発しました。<br><br>
         アイスブレイクや、チームでの作業前にゲーム感覚で楽しみながら、<br><br>
         以下の3点を守り、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
