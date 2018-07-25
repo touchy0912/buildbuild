@@ -16,7 +16,7 @@
 <div class="rulepage"> 
 
     
-        <font class='gaiyou'>概要</font><br>
+        <font class='gaiyou'>Introduction</font><br><br>
        <ul>
 
             <li>ゲーム開始後、全員に役割が振り分けられます。</li><br>
