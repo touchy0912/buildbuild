@@ -3,6 +3,7 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
 @import url(https://fonts.googleapis.com/earlyaccess/hannari.css);
 @import url(https://fonts.googleapis.com/earlyaccess/sawarabigothic.css);
+@import url("https://fonts.googleapis.com/earlyaccess/kokoro.css");
 @font-face{ 
 	font-family: 'userfont';
 	src: url('../font/TanukiMagic.ttf') format('truetype')
@@ -197,6 +198,13 @@
   width: 240px;
 }
 
+.whatfor {
+    font-family: MS Sans Selif;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+}
+
 .ieruka {
   font-size: 40px;
   font-weight: bold;
@@ -223,6 +231,7 @@
   font-family: MS Sans Selif;
   font-weight: bold;
   color: black;
+  font-size:50px;
 }
 .threekeys .caption {
 	font-size:		280%;
@@ -270,9 +279,9 @@
   display:block;
   width:100%;
   margin:0;
-  height:900px;
+  height:1000px;
   background-color: white;
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .boxContainer {
@@ -509,8 +518,8 @@
   width:100%;
   margin:0;
   height:300px;
-
   display: block;
+  color:black;
 }
 
 .login-signup li{
@@ -568,7 +577,7 @@
 
 .title4{
   color:white;
-  font-family: 'Hannari';
+  font-family: "Kokoro";
 }
 
 .row {
