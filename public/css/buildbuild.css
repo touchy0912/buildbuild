@@ -40,11 +40,23 @@ body{
 　font-family: 'Permanent Marker', cursive;
 }
 
-.navbar .container  a{
+.navbar-right a {
+  font-size: 45px;
+  color:white;
+  margin-top: 15px;
+
+}
+
+.navbar-brand {
+  font-size: 35px;
+  margin-top: 15px;
+}
+
+.navbar .container .nav-item{
   color:white;
   font-family: 'Permanent Marker', cursive;
-  
-  
+  height: 80px;
+  padding: 25px 25px;
 }
 
 .navbar .collapse  ul{
@@ -63,8 +75,14 @@ body{
   background-color:  white;
 }
 
+/*ドロップダウンメニュー*/
 
-
+.dropdown-item {
+  color: black;
+  width:185px;
+  font-family: MS UI Gothic;
+  /*font-family: MS Sans Serif;*/
+}
 
 
 .clearfix:before{
