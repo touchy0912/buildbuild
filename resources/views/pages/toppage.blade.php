@@ -48,15 +48,13 @@
     <div class='title'>
     <h2 class="title2">ビル　　　　ビル</h2>
     <h1 class="title1">Build Build</h1>
-    <h1 class="title4">～ここにキャッチフレーズ～</h1><br><br>
+    <h1 class="title4">～「言える化」を創ろう～</h1><br><br>
             <div class="description3">
             
                     
             <a href="{{route('login')}}" class="btn btn-lg">
             <button class='cssbtn'>　Login　</button>    
             </a>
-                 
-    
         </div>
     </div>
     
@@ -66,7 +64,7 @@
     <div class='whatbb'>
         
 
-        <h1 class="description">-WHAT "Build Build" FOR?-<br><br><br>
+        <h1 class="description"><span class="whatfor">-WHAT "Build Build" FOR?-</span><br><br><br>
         <font size="30px">「チームビルディングの課題を解決したい」</font><br><br><br><br>そんな思いで、このゲームを開発しました。<br><br>
         アイスブレイクや、チームでの作業前にゲーム感覚で楽しみながら、<br><br>
         以下の3点を守り、「言える化」= 意見を言いやすい環境の構築を目指しましょう！
@@ -167,7 +165,7 @@
         <br><br><font class="button">-Sign up now!-</font><br><br>
         
         <div class="description2">
-            <h3>チーム登録の説明文を入れる？</h3>
+            <h3>チームで1回、Sign upしてください</h3>
     <a href="{{route('signup.get')}}" class="btn btn-lg">
         <button class='cssbtn'>Signup</button>    
     </a>
