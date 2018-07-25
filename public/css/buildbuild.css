@@ -148,7 +148,7 @@
   background-size: 100% auto;
   width:100%;
   display: block;
-  height: 1000px;
+  height: 1200px;
 }
 
 .whatbb{
@@ -766,6 +766,25 @@ button:hover {
     font-size: 30px;
 }
 
+/*タイマーページ*/
+.timerpage{
+  background:linear-gradient(to top, rgba(217, 175, 217, 0.7) 0%, rgba(151, 217, 225, 0.7) 100%),url('/image/hand.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  width:100%;
+  display: block;
+  height: 700px;
+  
+}
+.timerpage2{
+  
+  padding-top:  150px;
+}
+
+
+
 ul{
     list-style:none;
 }
@@ -847,6 +866,10 @@ li .grandrule{
 
 
 /*ここからタイマー*/
+
+.timerfont{
+  color:black;
+}
 
 h1 .timer {
   font-family:'Roboto Condensed', cursive;

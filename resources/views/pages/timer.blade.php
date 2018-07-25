@@ -3,8 +3,8 @@
 
 @section('content')
 
-<div class="rulepage">
-
+<div class="timerpage">
+<div class='timerpage2'>
 <?php $i=1 ?>
 @foreach($themas as $thema)
 @if($i==1)
@@ -15,7 +15,7 @@
 <br>
 
 <h1 class="timer">
-  残り時間は
+  <span class='timerfont'>残り時間は
   <div class="counter">
     <span class="decor top"></span>
     <span class="decor bottom"></span>
@@ -24,13 +24,13 @@
     <span class="to top"><span></span><span class="shadow"></span></span>
     <span class="to bottom"><span></span><span class="shadow"></span></span>
   </div>
-  　です。
+  　です。</span>
 </h1>
 
 <?php  $users=urlencode(serialize($users));
        $roles=urlencode(serialize($roles)); ?>
        
-<br><br>
+<br><br><br><br>
 {!! Form::open(['route'=>'thema.feedback','name'=>'java']) !!}
 {!! Form::hidden('roles',$roles) !!}
 {!! Form::hidden('users',$users) !!}
@@ -39,7 +39,7 @@ Next
 </button>
 {!! Form::close() !!}
 
-
+</div>
 </div>
 
 
