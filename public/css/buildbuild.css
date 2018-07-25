@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face{ 
+	font-family: 'userfont';
+	src: url('../font/TanukiMagic.ttf') format('truetype')
+}
 
 body{
     background-color: rgba(0,0,0,0.8);
@@ -648,7 +652,10 @@ li .grandrule{
 
 /*user1 page*/
 
-
+.h2, h2 {
+    font-size: 30px;
+    padding-top: 30px;
+}
 
 .panel-body{
   max-width: 50%;
@@ -669,6 +676,12 @@ li .grandrule{
     margin: 0; 
     padding: 0;
 }
+
+.username{
+  color:black;
+  font-size: 40px;
+  font-family:userfont;
+}
 /*ここまでグランドルール*/
 
 
@@ -681,6 +694,11 @@ li .grandrule{
     padding-bottom:30px;
 }
 
+.usersan{
+  font-size: 50px;
+  color:black;
+  font-family:userfont;
+}
 
 
 /*.nextpage{*/
@@ -702,6 +720,12 @@ li .grandrule{
     
 }
 
+
+/*ここからスタートページ*/
+.themefont{
+  font-family:userfont;
+  color:black;
+}
 
 
 /*ここからタイマー*/
@@ -858,5 +882,20 @@ footer small {
     color: #fff;
 }
 
+/*ここからエンドページ*/
+.h1, h1 {
+    padding-top: 30px;
+    font-size: 36px;
+}
 
 
+/*ここからフィードバックページ*/
+.table {
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+td {
+  font-family: userfont;
+}

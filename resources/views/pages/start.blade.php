@@ -13,7 +13,7 @@
 <?php $i=1 ?>
 @foreach($themas as $thema)
 @if($i==1)
-<h1>テーマ<br>「{{$thema["thema"]}}」 </h1>
+<h1><span class='themefont'>テーマ<br>「{{$thema["thema"]}}」 </span></h1>
 @endif
 <?php $i++; ?>
 @endforeach

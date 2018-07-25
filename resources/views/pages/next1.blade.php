@@ -8,7 +8,7 @@
 @foreach($users as $user)
 
 @if($i==2)
-<h2>次は{{$user}} さんです</h2>
+<h2>次は<span class='username'>{{$user}}</span>さんです</h2>
 <h3>この画面のまま、次の人に渡してください</h3>
 
 @endif
