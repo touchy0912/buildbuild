@@ -23,8 +23,6 @@
                             <li>{!! link_to_route('logout.get', 'Logout',null,['style'=>"font-size:20px;"]) !!}</li>
                             </ul>
                         </li>
-                        @else
-                            <li>{!!link_to_route('login','Login', null, ['class' => 'hover']) !!}</li>
                         @endif
                     </ul>
                 </div>

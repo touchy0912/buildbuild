@@ -3,6 +3,7 @@
 
 @section('content')
     <h1 class=yakusyoku>Posts</h1>
+    <h2 class=keys>1ゲームごとに、ランダムで6つの役割に振り分けられる</h2>
 <div class="boxContainer">
     <div class="box1"><img src="/media/tereope.png" class='role-image'>
         <div class="mask">
