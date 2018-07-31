@@ -34,6 +34,19 @@ class ThemasController extends Controller
         return view('pages.timer',['themas'=>$themas,'users'=>$users,'roles'=>$roles]);
     }
     
+    public function rolesfeed(Request $request)
+    {
+        $users=$request->users;
+        $users=unserialize(urldecode($users));
+        
+        $roles=$request->roles;
+        $roles=unserialize(urldecode($roles));
+        
+        
+        return view('pages.rolesfeed',['users'=>$users,'roles'=>$roles]);
+    }
+    
+    
     public function feedback(Request $request)
     {
         $users=$request->users;

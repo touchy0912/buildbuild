@@ -5,9 +5,9 @@
 
 <div class="rulepage">
 
-<h1>【フィードバックタイム】</h1>
+<h1>【役職公開】</h1>
 
-<h2>チーム全体で、今の席の右隣の人へ順番に、<br>ポジティブなフィードバックを1人ずつしてください。</h2>
+<h2>ナビゲーターから反時計回りに一人ずつ<br>自分の役職のMISSIONを説明してください。</h2>
 
 
 
@@ -32,12 +32,19 @@
                 
             </tbody>
         </table>
+        
+        
+        <?php  $users=urlencode(serialize($users));
+       $roles=urlencode(serialize($roles)); ?>
+       
 
-
-            <a href="{{route('thema.gameend')}}" class="btn btn-lg">
-            <button class='cssbtn2'>　Next　</button>    
-            </a>
-
+{!! Form::open(['route'=>'thema.feedback']) !!}
+{!! Form::hidden('roles',$roles) !!}
+{!! Form::hidden('users',$users) !!}
+<button class="cssbtn2" type="submit">
+Next
+</button>
+{!! Form::close() !!}
 
 
 </div>
