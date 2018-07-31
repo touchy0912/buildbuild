@@ -24,7 +24,6 @@
                             </ul>
                         </li>
                         @else
-                            <li>{!! link_to_route('signup.get','Signup', null, ['class' => 'hover']) !!}</li>
                             <li>{!!link_to_route('login','Login', null, ['class' => 'hover']) !!}</li>
                         @endif
                     </ul>
