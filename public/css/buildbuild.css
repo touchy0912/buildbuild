@@ -207,12 +207,11 @@
   text-decoration: none;
   width: 240px;
 }
+/*ここからスクロール*/
 .scroll{
   position: relative;
 }
-.scroll a {
-  padding-top: 100px;
-}
+
 .scroll a span {
   position: absolute;
   top: 0;
@@ -220,7 +219,7 @@
   width: 46px;
   height: 46px;
   margin-left: -23px;
-  border: 1px solid #fff;
+  border: 0px solid #fff;
   border-radius: 100%;
   box-sizing: border-box;
 }
@@ -232,15 +231,142 @@
   content: '';
   width: 16px;
   height: 16px;
-  margin: -12px 0 0 -8px;
+  margin: -60px 0 0 -8px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
   box-sizing: border-box;
 }
 
 
+.scroll a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.scroll a span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+.scroll a span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.last {
+  color: rgba(250,250,250,0.7);
+   padding-top: 50px;
+}
+/*ここまで*/
+
+/*ここからスクロール1*/
+.scroll1{
+  position: relative;
+}
+
+.scroll1 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 0px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+.scroll1 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -120px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb 2s infinite;
+  animation: sdb 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+
+.scroll1 a span:nth-of-type(1) {
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.scroll1 a span:nth-of-type(2) {
+  top: 16px;
+  -webkit-animation-delay: .15s;
+  animation-delay: .15s;
+}
+.scroll1 a span:nth-of-type(3) {
+  top: 32px;
+  -webkit-animation-delay: .3s;
+  animation-delay: .3s;
+}
+
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.last1 {
+  color: rgba(250,250,250,0.7);
+   padding-top: -20px;
+}
+
+/*ここまで*/
 .whatfor {
     font-family: MS Sans Selif;
     font-weight: bold;

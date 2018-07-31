@@ -57,8 +57,11 @@
             </a>
 
              <div class='scroll'>
-                <a href="#scroll"><span></span></a>
+                <a href="#scroll"><span></span><span></span><span></span></a>
+                
             </div>
+            
+            <div class="last">Scroll</div>
 
         </div>
     </div>
@@ -78,8 +81,15 @@
 
     </div>
     
+    <div class='scroll1'>
+                <a href="#scroll1"><span></span><span></span><span></span></a>
+                
+            </div>
+            
+            
+    
     <!--ここから3keys-->
-<div class="threekeystitle">
+<div class="threekeystitle"  id='scroll1'>
     -3 KEYS-
     <h1 class=keys>「言える化」構築のための３つの要素</h1>
 
